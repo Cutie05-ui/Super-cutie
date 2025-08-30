@@ -22,7 +22,7 @@ http://161.49.17.2:6610/001/2/ch00000090990000001093/manifest.mpd?JITPDRMType=Wi
 #KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
 http://161.49.17.2:6610/001/2/ch00000090990000001143/manifest.mpd?JITPDRMType=Widevine&amp;virtualDomain=001.live_hls.zte.com
 
-#EXTINF:-1 tvg-id="iheartmovies" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/26/I_Heart_Movies_2021.png" group-title="Kapamilya",I Heart Movies
+#EXTINF:-1 tvg-id="iheartmovies" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/26/I_Heart_Movies_2021.png" group-title="Shakzz",I Heart Movies
 http://ixp.enixph.com:9111/stream/kapamilya/ihm/master.m3u8?u=enix&p=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/cgfKSDP.png" group-title="Shakzz", DreamWorks (Tagalized)
