@@ -120,6 +120,9 @@ https://atemeshield1-voe.sysln.id/live/eds/SonyMax/mpd/SonyMax.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0
 https://tataplay.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8
 
+#EXTINF:-1 tvg-logo="https://s.yimg.com/ny/api/res/1.2/Zhm8xDfVoSv6GQd6XPu78Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MDtjZj13ZWJw/https://s.yimg.com/os/creatr-uploaded-images/2025-09/e8931da0-9034-11f0-b1f8-2f943512580f" group-title="Shakzz",Canelo Alvarez vs Terence Crawford
+https://lb4.strmd.top/secure/xhPoPKRDXZwvfssuPrNnAuWktGWeFcxa/delta/stream/live-event_canelo-alvarez-vs-terence-crawford-live-stream/1/playlist.m3u8
+
 ###### FORGER ######
 
 #EXTINF:-1 tvg-id="gmanewstv" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/GMA_News_TV_Logo_Vector.svg/1200px-GMA_News_TV_Logo_Vector.svg.png" group-title="Converge",GMA News TV
