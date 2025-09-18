@@ -2,7 +2,10 @@
 
 #EXTM3U url-tvg="https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml,https://raw.githubusercontent.com/AqFad2811/epg/main/unifitv.xml,https://raw.githubusercontent.com/AqFad2811/epg/main/astro.xml, https://raw.githubusercontent.com/azimabid00/epg/main/unifi_epg.xml,https://i.mjh.nz/PlutoTV/all.xml,https://raw.githubusercontent.com/azimabid00/epg/main/astro_epg.xml, https://raw.githubusercontent.com/mystery75/streaming/app/VOD.xml, https://www.bevy.be/bevyfiles/philippinespremium2.xml, https://bit.ly/pondan-epg, https://azimabid00.github.io/epg/astro_epg.xml, https://raw.githubusercontent.com/mystery75/streaming/app/VOD.xml,https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
 
-########## Shakzz ############
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz, https://raw.githubusercontent.com/atone77721/CIGNAL_EPG/refs/heads/main/cignal_epg.xml, https://raw.githubusercontent.com/atone77721/CIGNAL_EPG/refs/heads/main/sky_epg.xml"
+
+
+########## Shakzz ###########
 
 #EXTINF:-1 group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz9ny3q_5Tf_ku22-a3aC9FnM-7uHJIFzvx8na_r0vq_nBfJyagCTfzlQ&s=10"
 
@@ -25,10 +28,8 @@ http://161.49.17.2:6610/001/2/ch00000090990000001143/manifest.mpd?JITPDRMType=Wi
 #EXTINF:-1 tvg-id="iheartmovies" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/26/I_Heart_Movies_2021.png" group-title="Shakzz",I Heart Movies
 http://ixp.enixph.com:9111/stream/kapamilya/ihm/master.m3u8?u=enix&p=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/40E328E7-FE69-4287-86EA-FA942A7EA302/0-16x9.jpg?width=1980" channel-number="39" group-title="Shakzz", Dreamworks Tagalized
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#EXTINF:-1 tvg-id="dreamworks-tagalized" tvg-logo="https://i.imgur.com/bzTr9Y2.png" group-title="Shakzz",Dreamworks Tagalized 
+#KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=564b3b1c781043c19242c66e348699c5:d3ad27d7fe1f14fb1a2cd5688549fbab
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_dreamworktag/default/index.mpd
 
@@ -39,7 +40,7 @@ https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_dreamworktag/default/in
 #KODIPROP:inputstream.adaptive.license_key=0f873dc6412b11edb8780242ac120002:7511efa4f5f1f82fe61776ba3b49fc10
 https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/ppvhd298.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxWbmJGSUFPX7zP7iDD0SYTInwOh8S3kkyhF0gQujujryYU2T4GSM_7T4&s=10" group-title="Shakzz", Asian Hits
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Shakzz", Asian Hits
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -66,40 +67,27 @@ https://live-atv-cdn.izzigo.tv/2/out/u/dash/UNIVERSAL-PREMIERE-HD/default.mpd
 #EXTINF:-1 group-title="Shakzz",Sinemanila
 https://live20.bozztv.com/giatv/giatv-sinemanila/sinemanila/chunks.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/cgfKSDP.png" group-title="Shakzz", DreamWorks (Tagalized)
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=564b3b1c781043c19242c66e348699c5:d3ad27d7fe1f14fb1a2cd5688549fbab
-https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_dreamworktag.mpd
 
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/russel/images/7/7a/TV5_HD_Logo_2024.png/revision/latest/scale-to-width-down/290?cb=20240202141126" group-title="Converge", TV5 (Converge)
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
 http://161.49.17.2:6610/001/2/ch00000090990000001088/manifest.mpd?JITPDRMType=Widevine&amp;virtualDomain=001.live_hls.zte.com
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A97A2-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="5" group-title="Shakzz", TV5
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#EXTINF:-1 tvg-id="tv5-hd" tvg-logo="https://i.imgur.com/U5L67WD.png" group-title="Shakzz",TV5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2615129ef2c846a9bbd43a641c7303ef:07c7f996b1734ea288641a68e1cfdc4d
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/tv5_hd/default1/index.mpd
 
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/C5298B63-6A6F-4CEC-8AC7-07B482EFA587/0-16x9.jpg?width=1980" channel-number="13" group-title="Shakzz", TVN Movies Pinoy
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#EXTINF:-1 tvg-id="tvn-movies-pinoy" tvg-logo="https://i.imgur.com/8YhI91e.png" group-title="Shakzz",TVN Movies Pinoy
+#KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2e53f8d8a5e94bca8f9a1e16ce67df33:3471b2464b5c7b033a03bb8307d9fa35
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_tvnmovie/default/index.mpd
 
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/A9E09C52-721F-4316-ABB9-35EF145B69C0/0-16x9.jpg?width=1980" channel-number="16" group-title="Shakzz", TMC (Tagalized Movie Channel)
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#EXTINF:-1 tvg-id="tagalized-movie-channel" tvg-logo="https://i.imgur.com/550RYpJ.png" group-title="Shakzz",TMC (Tagalized Movie Channel)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=96701d297d1241e492d41c397631d857:ca2931211c1a261f082a3a2c4fd9f91b
 https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_tagalogmovie/default/index.mpd
+
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/6mNCite.png" group-title="Shakzz", TMC
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -111,8 +99,8 @@ http://161.49.17.2:6610/001/2/ch00000090990000001080/manifest.mpd?JITPDRMType=Wi
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f36eed9e95f140fabbc88a08abbeafff:0125600d0eb13359c28bdab4a2ebe75a
-https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_nba.mpd 
+#KODIPROP:inputstream.adaptive.license_key=c5e51f41ceac48709d0bdcd9c13a4d88:20b91609967e472c27040716ef6a8b9a
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cgnl_nba/default/index.mpd
 
 #EXTINF: -1 tvg-id="" tvg-logo="https://static.wikia.nocookie.net/signons-and-signoffs/images/d/d2/GMA_7_Logo_2011.png" group-title="Shakzz", GMA Manila
 https://nokotan.anhkz.fr/channel/2353eb89/index.m3u8?q=0842d25e3217cafb3fddf9cd0dfe0a1e
@@ -131,553 +119,382 @@ https://atemeshield1-voe.sysln.id/live/eds/SonyMax/mpd/SonyMax.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0
 https://tataplay.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8
 
-#EXTINF:-1 tvg-logo="https://s.yimg.com/ny/api/res/1.2/Zhm8xDfVoSv6GQd6XPu78Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MDtjZj13ZWJw/https://s.yimg.com/os/creatr-uploaded-images/2025-09/e8931da0-9034-11f0-b1f8-2f943512580f" group-title="Shakzz",Canelo Alvarez vs Terence Crawford
-https://lb4.strmd.top/secure/xhPoPKRDXZwvfssuPrNnAuWktGWeFcxa/delta/stream/live-event_canelo-alvarez-vs-terence-crawford-live-stream/1/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://s.yimg.com/ny/api/res/1.2/Zhm8xDfVoSv6GQd6XPu78Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTM2MDtjZj13ZWJw/https://s.yimg.com/os/creatr-uploaded-images/2025-09/e8931da0-9034-11f0-b1f8-2f943512580f" group-title="Shakzz",Canelo Alvarez vs Terence Crawford 2
-https://use11.playlist.ttvnw.net/v1/playlist/CtoGpbQsxVSFc6tu0t8c4u4erhjsMgelNm0LJatUMREoHrXLBXNlGUAB_Zs_c_dbpQ35VjQ_zs6vhAjJ81Jp3YWgze5UTbDq57Us5yea3Vt4q5H4xfWyZ1l8WwTviB59tntJVwFxaRkZlxySp_pgNTkaz53Z3l9eYfruqAsHwv50oxPM8R6_d-60iiG7W8KbjxFuS_duBOMtwJmgmtYxSIKYN058We2suHXYZxxbutjVfZhAry9j96L_M8DTkhsl8YwCm_OMfESas43DmSl0V6LlVpXmN0AN70Q9yNLK_D8TVjyREvnU_1qpRAxGG9ZSz09z4fbGlIa70YaNuF22y9aKyvE_sQkBZEQu0hGfDzY9pg5khCKMVN_FW-8mnDIgL7IfZ8-wWpFCw7x5djyiurTHj8p4WNGJ7juEKz7p1L95RlfohDecjP6TpCZUlSCexqHR0QMCZ-nstFiYFrKBppndGaw7q2lwAiZiqFJzwlwon_GBaR65d_cTiiN1j6zpDAw9gHXSc0uNF8MDtRlcbRvje01dRP4pSe6vsrKeQcUpRHl-msB8RU83tuMNaq-oNqfefXNbfZv6gD6B7XRaZXuV2HcTuWzVlDbfbyK7LhJ25UqKdY6jY2ETWz-45IFyLZnFhC7UtQhkRTMgWfkrtPtBu6x_jnwUqXzco61VpTx_3x4sc6pLliSBdoiny_baD4tM5Qci8J-JDa7sVPQh_Q9ZkHjpDF4tbYFdihXtJS9ZIb7pYr9VRORhcPT1NtdYoDqkI0wfH8RUwaqpyY7DZ1bpUNobDeJxJcFZyQbHRUMnO5q4XQMiw3bxeQoRQSSpmE5pfT3sJ8NHGN8HU_phEXVUNHSz51v94aSwm0XvhOItsXxUwkwiF6t8oiIenC5e7dbAlgOQfY5qneiV1OUgRJd4ul_v97hN-Z5OaKxrLJLwLioAWVxGO-XMjNWDhL8YKNaEkorPmNsBzYGFKo1WWZXTzvatkoCl7Kqr8gerFIA5k0ygchW6DGT4z-KKTXtQwOYbFKdYv7eV8Q0n9fDTRCrfJWCB5HnLGgyvpnspQwK89d3O-3KNeScjjEACFVWkPq0brhen5X-vXQlgVHR7UiIgmp62Y1o78ceDH0SgVQ1zn9e6VKzdDDuE1UPHGgy7sfHN7XnLXEq19_kgASoJdXMtZWFzdC0yMJwN.m3u8
+########## CIGNAL TV ########
 
+#EXTINF:-1 group-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/18/Cignal_Logo_2018.svg/645px-Cignal_Logo_2018.svg.png",Cignal
 
-###### FORGER ######
-
-#EXTINF:-1 tvg-id="gmanewstv" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/GMA_News_TV_Logo_Vector.svg/1200px-GMA_News_TV_Logo_Vector.svg.png" group-title="Converge",GMA News TV
-https://ott.m3u8.nathcreqtives.com/gmanewstv/manifest.m3u8
-
-#EXTINF:-1 tvg-id="gmanewslive" tvg-logo="https://static.wikia.nocookie.net/reece/images/2/21/GMA_News_TV_Live_Logo_2015.png/revision/latest/scale-to-width-down/250?cb=20231021133259" group-title="Converge",GMA News Live
-https://ott.m3u8.nathcreqtives.com/gmanewslive/manifest.m3u8
-
-#EXTINF:-1 tvg-id="gmalifetv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/GMA_Life_TV_logo.png/1200px-GMA_Life_TV_logo.png" group-title="Converge",GMA Life TV
-https://ott.m3u8.nathcreqtives.com/gmalifetv/manifest.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/c0/GMA_Network_Logo_Vector.svg/1200px-GMA_Network_Logo_Vector.svg.png" group-title="Forger", GMA
-https://ott.m3u8.nathcreqtives.com/gma/stream/manifest.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://vignette.wikia.nocookie.net/russel/images/f/f9/TV5_Logo_2011.png/revision/latest?cb=20161204035016" group-title="Forger", TV 5 HD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=2615129ef2c846a9bbd43a641c7303ef:07c7f996b1734ea288641a68e1cfdc4d
-https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/tv5_hd.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://cms.cignal.tv/Upload/Images/Kapamilya%20Channel%20Logo%20alpha.png" group-title="Forger", Kapamilya Channel HD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=bd17afb5dc9648a39be79ee3634dd4b8:3ecf305d54a7729299b93a3d69c02ea5
-https://d1uf7s78uqso1e.cloudfront.net/out/v1/efa01372657648be830e7c23ff68bea2/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://download.logo.wine/logo/Cinema_One/Cinema_One-Logo.wine.png" group-title="Forger", Cinema One
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=58d0e56991194043b8fb82feb4db7276:d68f41b59649676788889e19fb10d22c
-https://d9rpesrrg1bdi.cloudfront.net/out/v1/93b9db7b231d45f28f64f29b86dc6c65/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://img.mytfc.com/cmsroot/abscms/media/mytfctv/channels/iwantoriginals/iwanttfc_channel_thumbnail-768x430.png?ext=.png" group-title="Forger", TFC Asia
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=9568cc84e1d944f38eac304517eab6fd:f12142af8f39b3bab79d3679d3665ebe
-https://d1facupi3cod3q.cloudfront.net/out/v1/e3633f8591e248b0af1af15a474bfa4a/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/1200px-NBA_TV.svg.png" group-title="Forger", NBA TV Philippines
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f36eed9e95f140fabbc88a08abbeafff:0125600d0eb13359c28bdab4a2ebe75a
-https://qp-pldt-live-grp-02-prod.akamaized.net/out/u/pl_nba.mpd
-
-########## Cignal TV ##########
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A9392-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1800" channel-number="1" group-title="Cignal", One PH
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=92834ab4a7e1499b90886c5d49220e46:a7108d9a6cfcc1b7939eb111daf09ab3
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/oneph_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AD956-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="2" group-title="Cignal", Buko
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=d273c085f2ab4a248e7bfc375229007d:7932354c3a84f7fc1b80efa6bcea0615
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_buko_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ADE4C-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="3" group-title="Cignal", Sari-Sari
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0a7ab3612f434335aa6e895016d8cd2d:b21654621230ae21714a5cab52daeb9d
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_sarisari/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A5F08-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="4" group-title="Cignal", PTV
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=71a130a851b9484bb47141c8966fb4a3:ad1f003b4f0b31b75ea4593844435600
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_ptv4_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A97A2-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="5" group-title="Cignal", TV5
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=2615129ef2c846a9bbd43a641c7303ef:07c7f996b1734ea288641a68e1cfdc4d
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/tv5_hd/default1/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A9590-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1920" channel-number="6" group-title="Cignal", DepEd Channel
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0f853706412b11edb8780242ac120002:2157d6529d80a760f60a8b5350dbc4df
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/depedch_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A7DDA-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="7" group-title="Cignal", One News
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=d39eb201ae494a0b98583df4d110e8dd:6797066880d344422abd3f5eda41f45f
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/onenews_hd1/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/44B03994-C303-4ACE-997C-91CAC493D0FC/0-16x9.jpg?width=1980" channel-number="8" group-title="Cignal", RPTV
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1917f4caf2364e6d9b1507326a85ead6:a1340a251a5aa63a9b0ea5d9d7f67595
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cnn_rptv_prod_hd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ABC0A-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="9" group-title="Cignal", IBC 13
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=16ecd238c0394592b8d3559c06b1faf5:05b47ae3be1368912ebe28f87480fc84
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/ibc13_sd_new/default1/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/4514F052-94DC-47C5-8BB1-DA42BD5F2F57/0-16x9.jpg?width=1990" channel-number="10" group-title="Cignal", TrueTV
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0559c95496d44fadb94105b9176c3579:40d8bb2a46ffd03540e0c6210ece57ce
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/truefm_tv/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A5580-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="11" group-title="Cignal", A2Z
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#EXTINF:-1 tvg-id="a2z" tvg-logo="https://i.imgur.com/ftwsljN.png" group-title="Cignal",A2Z
+#KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f703e4c8ec9041eeb5028ab4248fa094:c22f2162e176eee6273a5d0b68d19530
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_a2z/default/index.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/166677E4-33C5-4C3B-A09D-7B3442D99E77/0-16x9.jpg?width=1980" channel-number="12" group-title="Cignal", Bilyonaryo Channel
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=227ffaf09bec4a889e0e0988704d52a2:b2d0dce5c486891997c1c92ddaca2cd2
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/bilyonaryoch/default1/index.mpd
+#EXTINF:-1 tvg-id="one-ph" tvg-logo="https://i.imgur.com/U9QwJSE.png" group-title="Cignal",One PH
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=92834ab4a7e1499b90886c5d49220e46:a7108d9a6cfcc1b7939eb111daf09ab3
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/oneph_sd/default/index.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/C5298B63-6A6F-4CEC-8AC7-07B482EFA587/0-16x9.jpg?width=1980" channel-number="13" group-title="Cignal", TVN Movies Pinoy
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=2e53f8d8a5e94bca8f9a1e16ce67df33:3471b2464b5c7b033a03bb8307d9fa35
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_tvnmovie/default/index.mpd
+#EXTINF:-1 tvg-id="buko" tvg-logo="https://i.imgur.com/BxQvEil.png" group-title="Cignal",Buko
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d273c085f2ab4a248e7bfc375229007d:7932354c3a84f7fc1b80efa6bcea0615
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_buko_sd/default/index.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A8AAA-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="14" group-title="Cignal", PBO
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=dcbdaaa6662d4188bdf97f9f0ca5e830:31e752b441bd2972f2b98a4b1bc1c7a1
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/pbo_sd/default/index.mpd
+#EXTINF:-1 tvg-id="sari-sari" tvg-logo="https://i.imgur.com/25CGN9g.png" group-title="Cignal",Sari-Sari
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0a7ab3612f434335aa6e895016d8cd2d:b21654621230ae21714a5cab52daeb9d
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_sarisari/default/index.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AA120-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="15" group-title="Cignal", Viva Cinema
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=07aa813bf2c147748046edd930f7736e:3bd6688b8b44e96201e753224adfc8fb
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/viva_sd/default/index.mpd
+#EXTINF:-1 tvg-id="tv5-hd" tvg-logo="https://i.imgur.com/U5L67WD.png" group-title="Cignal",TV5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2615129ef2c846a9bbd43a641c7303ef:07c7f996b1734ea288641a68e1cfdc4d
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/tv5_hd/default1/index.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/A9E09C52-721F-4316-ABB9-35EF145B69C0/0-16x9.jpg?width=1980" channel-number="16" group-title="Cignal", TMC (Tagalized Movie Channel)
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=96701d297d1241e492d41c397631d857:ca2931211c1a261f082a3a2c4fd9f91b
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_tagalogmovie/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://cms.cignal.tv/Upload/Images/Celestial-Logo-2022.jpg" channel-number="17" group-title="Cignal", Celestial Movies Pinoy
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0f8537d8412b11edb8780242ac120002:2ffd7230416150fd5196fd7ea71c36f3
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/celmovie_pinoy_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/2vImVJE.png" channel-number="18" group-title="Cignal", Thrill
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=928114ffb2394d14b5585258f70ed183:a82edc340bc73447bac16cdfed0a4c62
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_thrill_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AC48E-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="19" group-title="Cignal", Tap Movies
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=71cbdf02b595468bb77398222e1ade09:c3f2aa420b8908ab8761571c01899460
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_tapmovies_hd1/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/B741DD7A-A7F8-4F8A-A549-9EF411020F9D/0-16x9.jpg?width=1980" channel-number="20" group-title="Cignal", HBO
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=d47ebabf7a21430b83a8c4b82d9ef6b1:54c213b2b5f885f1e0290ee4131d425b
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/CEE83EE5-D870-4B3C-9339-ACA7FF4020D0/0-16x9.jpg?width=1980" channel-number="21" group-title="Cignal", HBO Hits
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=b04ae8017b5b4601a5a0c9060f6d5b7d:a8795f3bdb8a4778b7e888ee484cc7a1
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohits/default1/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/62F1A4ED-EB56-49DF-912D-0A2388131772/0-16x9.jpg?width=1980" channel-number="22" group-title="Cignal", HBO Family
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=872910c843294319800d85f9a0940607:f79fd895b79c590708cf5e8b5c6263be
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbofam/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/D5127959-34E4-41B2-AA80-CE74DDC2C3C4/0-16x9.jpg?width=1980" channel-number="23" group-title="Cignal", HBO Signature
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=a06ca6c275744151895762e0346380f5:559da1b63eec77b5a942018f14d3f56f
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbosign/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ACF06-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="24" group-title="Cignal", HITS Movies
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f56b57b32d7e4b2cb21748c0b56761a7:3df06a89aa01b32655a77d93e09e266f
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_hitsmovies/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AC790-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="25" group-title="Cignal", Tap Action Flix
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=bee1066160c0424696d9bf99ca0645e3:f5b72bf3b89b9848de5616f37de040b7
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_tapactionflix_hd1/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/BC3C51E7-F1A5-46DE-979D-65DC483AE59C/0-16x9.jpg?width=1980" channel-number="26" group-title="Cignal", Cinemax
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=b207c44332844523a3a3b0469e5652d7:fe71aea346db08f8c6fbf0592209f955
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_cinemax/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/3327FF64-3E52-42DE-B516-4629BFABA8C7/0-16x9.jpg?width=1980" channel-number="27" group-title="Cignal", NBA TV Philippines
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=c5e51f41ceac48709d0bdcd9c13a4d88:20b91609967e472c27040716ef6a8b9a
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cgnl_nba/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A7650-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="28" group-title="Cignal", PBA Rush
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=76dc29dd87a244aeab9e8b7c5da1e5f3:95b2f2ffd4e14073620506213b62ac82
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_pbarush_hd1/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AB750-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="29" group-title="Cignal", One Sports HD Cignal
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=53c3bf2eba574f639aa21f2d4409ff11:3de28411cf08a64ea935b9578f6d0edd
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_onesports_hd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A696C-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="30" group-title="Cignal", One Sports Plus
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=322d06e9326f4753a7ec0908030c13d8:1e3e0ca32d421fbfec86feced0efefda
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_onesportsplus_hd1/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A869A-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="31" group-title="Cignal", UAAP Varsity Channel
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=95588338ee37423e99358a6d431324b9:6e0f50a12f36599a55073868f814e81e
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_uaap_cplay_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A6624-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="32" group-title="Cignal", TAP Sports
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=eabd2d95c89e42f2b0b0b40ce4179ea0:0e7e35a07e2c12822316c0dc4873903f
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_tapsports/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A6228-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="33" group-title="Cignal", Premier Sports
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=b8b595299fdf41c1a3481fddeb0b55e4:cd2b4ad0eb286239a4a022e6ca5fd007
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_ps_hd1/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A899C-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="34" group-title="Cignal", Premier Sports 2
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=59454adb530b4e0784eae62735f9d850:61100d0b8c4dd13e4eb8b4851ba192cc
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/premiersports2hd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A5BC0-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="35" group-title="Cignal", SpoTV HD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=ec7ee27d83764e4b845c48cca31c8eef:9c0e4191203fccb0fde34ee29999129e
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_spotvhd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A6A70-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="36" group-title="Cignal", SpoTV 2 HD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ABB06-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="37" group-title="Cignal", Animax
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=92032b0e41a543fb9830751273b8debd:03f8b65e2af785b10d6634735dbe6c11
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_animax_sd_new/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A5698-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="38" group-title="Cignal", DreamWorks HD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=4ab9645a2a0a47edbd65e8479c2b9669:8cb209f1828431ce9b50b593d1f44079
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_dreamworks_hd1/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/40E328E7-FE69-4287-86EA-FA942A7EA302/0-16x9.jpg?width=1980" channel-number="39" group-title="Cignal", Dreamworks Tagalog
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=564b3b1c781043c19242c66e348699c5:d3ad27d7fe1f14fb1a2cd5688549fbab
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_dreamworktag/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AC696-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="40" group-title="Cignal", Moonbug Kids
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0bf00921bec94a65a124fba1ef52b1cd:0f1488487cbe05e2badc3db53ae0f29f
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_moonbug_kids_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A51FC-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="41" group-title="Cignal", Cartoon Network (Cignal)
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=a2d1f552ff9541558b3296b5a932136b:cdd48fa884dc0c3a3f85aeebca13d444
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cartoonnetworkhd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/66B5278C-75EA-4D93-AD2B-A5822A0F1056/0-16x9.jpg?width=1980" channel-number="42" group-title="Cignal", TVN Premium
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=e1bde543e8a140b38d3f84ace746553e:b712c4ec307300043333a6899a402c10
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_tvnpre/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A7CE0-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="43" group-title="Cignal", KBS World
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=22ff2347107e4871aa423bea9c2bd363:c6e7ba2f48b3a3b8269e8bc360e60404
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/kbsworld/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AC36C-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="44" group-title="Cignal", AXN
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=fd5d928f5d974ca4983f6e9295dfe410:3aaa001ddc142fedbb9d5557be43792f
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_axn_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A8BB8-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="45" group-title="Cignal", Hits HD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=dac605bc197e442c93f4f08595a95100:975e27ffc1b7949721ee3ccb4b7fd3e5
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/hits_hd1/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/68C2D95A-A2A4-4C2B-93BE-41893C61210C/0-16x9.jpg?width=1980" channel-number="46" group-title="Cignal", Hits Now
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=14439a1b7afc4527bb0ebc51cf11cbc1:92b0287c7042f271b266cc11ab7541f1
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hitsnow/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A80E6-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="47" group-title="Cignal", Lifetime
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=cf861d26e7834166807c324d57df5119:64a81e30f6e5b7547e3516bbf8c647d0
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_lifetime/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AC592-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="48" group-title="Cignal", Tap TV
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f6804251e90b4966889b7df94fdc621e:55c3c014f2bd12d6bd62349658f24566
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_taptv_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://cms.cignal.tv/Upload/Images/Tap-Edge.jpg" channel-number="49" group-title="Cignal", Tap Edge
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=4553f7e8011f411fb625cefc39274300:98f2f1d153367e84b5d559dc9dfb9a35
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_tapedge/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A6520-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="50" group-title="Cignal", Rock Action
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0f852fb8412b11edb8780242ac120002:4cbc004d8c444f9f996db42059ce8178
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_rockextreme/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A6C78-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1920" channel-number="51" group-title="Cignal", Rock Entertainment
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=e4ee0cf8ca9746f99af402ca6eed8dc7:be2a096403346bc1d0bb0f812822bb62
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_rockentertainment/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AB020-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="52" group-title="Cignal", Asian Food Network (Cignal)
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=1619db30b9ed42019abb760a0a3b5e7f:5921e47fb290ae263291b851c0b4b6e4
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/asianfoodnetwork_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A9496-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="53" group-title="Cignal", Food Network
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=b7299ea0af8945479cd2f287ee7d530e:b8ae7679cf18e7261303313b18ba7a14
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_foodnetwork_hd1/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A858C-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="54" group-title="Cignal", HGTV
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f0e3ab943318471abc8b47027f384f5a:13802a79b19cc3485d2257165a7ef62a
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/ppvhd298/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A9D06-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="55" group-title="Cignal", Fashion TV
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=971ebbe2d887476398e97c37e0c5c591:472aa631b1e671070a4bf198f43da0c7
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/fashiontvhd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A9C02-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="56" group-title="Cignal", History HD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=a7724b7ca2604c33bb2e963a0319968a:6f97e3e2eb2bade626e0281ec01d3675
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_historyhd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A734E-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="57" group-title="Cignal", Discovery Channel
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=d9ac48f5131641a789328257e778ad3a:b6e67c37239901980c6e37e0607ceee6
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/discovery/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A57B0-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="58" group-title="Cignal", Animal Planet
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=436b69f987924fcbbc06d40a69c2799a:c63d5b0d7e52335b61aeba4f6537d54d
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_animal_planet_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A8898-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="59" group-title="Cignal", Travel Channel
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f3047fc13d454dacb6db4207ee79d3d3:bdbd38748f51fc26932e96c9a2020839
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/travel_channel_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A6868-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="60" group-title="Cignal", BBC Earth
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=34ce95b60c424e169619816c5181aded:0e2a2117d705613542618f58bf26fc8e
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_bbcearth_hd1/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A5468-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="61" group-title="Cignal", CNN International
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=900c43f0e02742dd854148b7a75abbec:da315cca7f2902b4de23199718ed7e90
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_cnnhd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A847E-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="62" group-title="Cignal", BBC World News
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f59650be475e4c34a844d4e2062f71f3:119639e849ddee96c4cec2f2b6b09b40
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/bbcworld_news_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AA47C-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="63" group-title="Cignal", Bloomberg
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=ef7d9dcfb99b406cb79fb9f675cba426:b24094f6ca136af25600e44df5987af4
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/bloomberg_sd/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ACCD6-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="64" group-title="Cignal", ABC Australia
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=389497f9f8584a57b234e27e430e04b7:3b85594c7f88604adf004e45c03511c0
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/abc_aus/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A7448-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="65" group-title="Cignal", CCTV-4
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=b83566836c0d4216b7107bd7b8399366:32d50635bfd05fbf8189a0e3f6c8db09
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_cctv4/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55AC9B6-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="66" group-title="Cignal", France 24
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=257f9fdeb39d41bdb226c2ae1fbdaeb6:e80ead0f4f9d6038ab34f332713ceaa5
-https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/france24/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ADB5E-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="67" group-title="Cignal", TV5 Monde
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=fba5a720b4a541b286552899ba86e38b:f63fa50423148bfcbaa58c91dfcffd0e
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_tv5_monde/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/C6AB65CE-37A0-4040-ABA7-021C669DBEE1/0-16x9.jpg?width=1980" channel-number="68" group-title="Cignal", Lotus Macau
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#EXTINF:-1 tvg-id="lotus-macau" tvg-logo="https://i.imgur.com/5G72qjx.png" group-title="Cignal",Lotus Macau
+#KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=60dc692e64ea443a8fb5ac186c865a9b:01bdbe22d59b2a4504b53adc2f606cc1
 https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/lotusmacau_prd/default/index.mpd
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55A7EE8-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="69" group-title="Cignal", KIX HD
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=a8d5712967cd495ca80fdc425bc61d6b:f248c29525ed4c40cc39baeee9634735
-https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/kix_hd1/default/index.mpd
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/C0B38DBD-BE4F-4044-9D85-D827D8DC64C4/0-16x9.jpg?width=1980" channel-number="70" group-title="Cignal", tvUP
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#EXTINF:-1 tvg-id="tvup" tvg-logo="https://i.imgur.com/OHLO5Hz.png" group-title="Cignal",tvUP
+#KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=83e813ccd4ca4837afd611037af02f63:a97c515dbcb5dcbc432bbd09d15afd41
 https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/tvup_prd/default/index.mpd
+
+#EXTINF:-1 tvg-id="thrill-sd" tvg-logo="https://i.imgur.com/kgqsalZ.png" group-title="Cignal",Thrill
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=928114ffb2394d14b5585258f70ed183:a82edc340bc73447bac16cdfed0a4c62
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_thrill_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="axn" tvg-logo="https://i.imgur.com/OuaLV7f.png" group-title="Cignal",AXN
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=fd5d928f5d974ca4983f6e9295dfe410:3aaa001ddc142fedbb9d5557be43792f
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_axn_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="hits-hd" tvg-logo="https://i.imgur.com/CxqHKUO.png" group-title="Cignal",Hits HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=dac605bc197e442c93f4f08595a95100:975e27ffc1b7949721ee3ccb4b7fd3e5
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/hits_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="hits-now" tvg-logo="https://i.imgur.com/Ck0ad9b.png" group-title="Cignal",Hits Now
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=14439a1b7afc4527bb0ebc51cf11cbc1:92b0287c7042f271b266cc11ab7541f1
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_hitsnow/default/index.mpd
+
+#EXTINF:-1 tvg-id="ibc" tvg-logo="https://i.imgur.com/CTHhr3Q.png" group-title="Cignal",IBC 13
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=16ecd238c0394592b8d3559c06b1faf5:05b47ae3be1368912ebe28f87480fc84
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/ibc13_sd_new/default1/index.mpd
+
+#EXTINF:-1 tvg-id="true-fm-tv" tvg-logo="https://i.imgur.com/i0xetYa.png" group-title="Cignal",TrueTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0559c95496d44fadb94105b9176c3579:40d8bb2a46ffd03540e0c6210ece57ce
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/truefm_tv/default/index.mpd
+
+#EXTINF:-1 tvg-id="tvn-premium-hd" tvg-logo="https://i.imgur.com/qEPJE1t.png" group-title="Cignal",TVN Premium
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e1bde543e8a140b38d3f84ace746553e:b712c4ec307300043333a6899a402c10
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_tvnpre/default/index.mpd
+
+#EXTINF:-1 tvg-id="kbs-world-sd" tvg-logo="https://i.imgur.com/aFDRmtm.png" group-title="Cignal",KBS World
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=22ff2347107e4871aa423bea9c2bd363:c6e7ba2f48b3a3b8269e8bc360e60404
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/kbsworld/default/index.mpd
+
+#EXTINF:-1 tvg-id="tap-tv" tvg-logo="https://i.imgur.com/vDvLPda.png" group-title="Cignal",Tap TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f6804251e90b4966889b7df94fdc621e:55c3c014f2bd12d6bd62349658f24566
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_taptv_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="global-trekker" tvg-logo="https://accion.com.ph/wp-content/uploads/2023/02/GT-Thumbnail-New.jpg" group-title="Cignal",Global Trekker
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4553f7e8011f411fb625cefc39274300:98f2f1d153367e84b5d559dc9dfb9a35
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_tapedge/default/index.mpd
+
+#EXTINF:-1 tvg-id="rock-action" tvg-logo="https://i.imgur.com/T70dbrM.png" group-title="Cignal",Rock Action
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0f852fb8412b11edb8780242ac120002:4cbc004d8c444f9f996db42059ce8178
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_rockextreme/default/index.mpd
+
+#EXTINF:-1 tvg-id="rock-entertainment" tvg-logo="https://i.imgur.com/BuKajCb.png" group-title="Cignal",Rock Entertainment
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e4ee0cf8ca9746f99af402ca6eed8dc7:be2a096403346bc1d0bb0f812822bb62
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_rockentertainment/default/index.mpd
+
+#EXTINF:-1 tvg-id="tvn-movies-pinoy" tvg-logo="https://i.imgur.com/8YhI91e.png" group-title="Cignal",TVN Movies Pinoy
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2e53f8d8a5e94bca8f9a1e16ce67df33:3471b2464b5c7b033a03bb8307d9fa35
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_tvnmovie/default/index.mpd
+
+#EXTINF:-1 tvg-id="pbo" tvg-logo="https://i.imgur.com/r3PUF9p.png" group-title="Cignal",PBO
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=dcbdaaa6662d4188bdf97f9f0ca5e830:31e752b441bd2972f2b98a4b1bc1c7a1
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/pbo_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="viva-cinema" tvg-logo="https://i.imgur.com/hBb2Fh9.png" group-title="Cignal",Viva Cinema
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=07aa813bf2c147748046edd930f7736e:3bd6688b8b44e96201e753224adfc8fb
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/viva_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="tagalized-movie-channel" tvg-logo="https://i.imgur.com/550RYpJ.png" group-title="Cignal",TMC (Tagalized Movie Channel)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=96701d297d1241e492d41c397631d857:ca2931211c1a261f082a3a2c4fd9f91b
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_tagalogmovie/default/index.mpd
+
+#EXTINF:-1 tvg-id="celestial-movies-pinoy" tvg-logo="https://i.imgur.com/e5IZsv3.png" group-title="Cignal",Celestial Movies Pinoy
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0f8537d8412b11edb8780242ac120002:2ffd7230416150fd5196fd7ea71c36f3
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/celmovie_pinoy_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="tap-movies-hd" tvg-logo="https://i.imgur.com/lVNcCFq.png" group-title="Cignal",Tap Movies
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=71cbdf02b595468bb77398222e1ade09:c3f2aa420b8908ab8761571c01899460
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_tapmovies_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="hbo" tvg-logo="https://i.imgur.com/6uN52OW.png" group-title="Cignal",HBO
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d47ebabf7a21430b83a8c4b82d9ef6b1:54c213b2b5f885f1e0290ee4131d425b
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohd/default/index.mpd
+
+#EXTINF:-1 tvg-id="hbo-hits" tvg-logo="https://i.imgur.com/tGSLZWz.png" group-title="Cignal",HBO Hits
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b04ae8017b5b4601a5a0c9060f6d5b7d:a8795f3bdb8a4778b7e888ee484cc7a1
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbohits/default1/index.mpd
+
+#EXTINF:-1 tvg-id="hbo-family" tvg-logo="https://i.imgur.com/SefoKAw.png" group-title="Cignal",HBO Family
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=872910c843294319800d85f9a0940607:f79fd895b79c590708cf5e8b5c6263be
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbofam/default/index.mpd
+
+#EXTINF:-1 tvg-id="hbo-signature" tvg-logo="https://i.imgur.com/3L9QRDw.png" group-title="Cignal",HBO Signature
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a06ca6c275744151895762e0346380f5:559da1b63eec77b5a942018f14d3f56f
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbosign/default/index.mpd
+
+#EXTINF:-1 tvg-id="hits-movies" tvg-logo="https://i.imgur.com/xjyDTMr.png" group-title="Cignal",HITS Movies
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f56b57b32d7e4b2cb21748c0b56761a7:3df06a89aa01b32655a77d93e09e266f
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_hitsmovies/default/index.mpd
+
+#EXTINF:-1 tvg-id="tap-action-flix-hd" tvg-logo="https://i.imgur.com/pjeTzag.png" group-title="Cignal",Tap Action Flix
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bee1066160c0424696d9bf99ca0645e3:f5b72bf3b89b9848de5616f37de040b7
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_tapactionflix_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="cinemax" tvg-logo="https://i.imgur.com/9LNJXe3.png" group-title="Cignal",Cinemax
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b207c44332844523a3a3b0469e5652d7:fe71aea346db08f8c6fbf0592209f955
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_cinemax/default/index.mpd
+
+#EXTINF:-1 tvg-id="nba-tv-philippines-cignal" tvg-logo="https://i.imgur.com/RcxNoIC.png" group-title="Cignal",NBA TV Philippines
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c5e51f41ceac48709d0bdcd9c13a4d88:20b91609967e472c27040716ef6a8b9a
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cgnl_nba/default/index.mpd
+
+#EXTINF:-1 tvg-id="pba-rush-hd" tvg-logo="https://i.imgur.com/Z7oMGiI.png" group-title="Cignal",PBA Rush
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=76dc29dd87a244aeab9e8b7c5da1e5f3:95b2f2ffd4e14073620506213b62ac82
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_pbarush_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="one-sports-hd" tvg-logo="https://i.imgur.com/imI97L2.png" group-title="Cignal",One Sports HD Cignal
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=53c3bf2eba574f639aa21f2d4409ff11:3de28411cf08a64ea935b9578f6d0edd
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_onesports_hd/default/index.mpd
+
+#EXTINF:-1 tvg-id="one-sports-plus" tvg-logo="https://i.imgur.com/RnDeKOj.png" group-title="Cignal",One Sports Plus
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=322d06e9326f4753a7ec0908030c13d8:1e3e0ca32d421fbfec86feced0efefda
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_onesportsplus_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="uaap-varsity-channel" tvg-logo="https://i.imgur.com/POFK8tM.png" group-title="Cignal",UAAP Varsity Channel
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=95588338ee37423e99358a6d431324b9:6e0f50a12f36599a55073868f814e81e
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_uaap_cplay_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="tap-sports" tvg-logo="https://i.imgur.com/HWbSPI9.png" group-title="Cignal",TAP Sports
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eabd2d95c89e42f2b0b0b40ce4179ea0:0e7e35a07e2c12822316c0dc4873903f
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_tapsports/default/index.mpd
+
+#EXTINF:-1 tvg-id="premier-sports" tvg-logo="https://i.imgur.com/GTfUEnU.png" group-title="Cignal",Premier Sports
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b8b595299fdf41c1a3481fddeb0b55e4:cd2b4ad0eb286239a4a022e6ca5fd007
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_ps_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="premier-sports-2" tvg-logo="https://i.imgur.com/OWVR172.png" group-title="Cignal",Premier Sports 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=59454adb530b4e0784eae62735f9d850:61100d0b8c4dd13e4eb8b4851ba192cc
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/premiersports2hd/default/index.mpd
+
+#EXTINF:-1 tvg-id="spotv-hd" tvg-logo="https://i.imgur.com/QExPfsT.png" group-title="Cignal",SpoTV HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ec7ee27d83764e4b845c48cca31c8eef:9c0e4191203fccb0fde34ee29999129e
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_spotvhd/default/index.mpd
+
+#EXTINF:-1 tvg-id="spotv-2-hd" tvg-logo="https://i.imgur.com/7mY1Zxg.png" group-title="Cignal",SpoTV 2 HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_spotv2hd/default/index.mpd
+
+#EXTINF:-1 tvg-id="animax" tvg-logo="https://i.imgur.com/5gJTEHT.png" group-title="Cignal",Animax
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=92032b0e41a543fb9830751273b8debd:03f8b65e2af785b10d6634735dbe6c11
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_animax_sd_new/default/index.mpd
+
+#EXTINF:-1 tvg-id="dreamworks-hd" tvg-logo="https://i.imgur.com/bzTr9Y2.png" group-title="Cignal",DreamWorks HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4ab9645a2a0a47edbd65e8479c2b9669:8cb209f1828431ce9b50b593d1f44079
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_dreamworks_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="dreamworks-tagalized" tvg-logo="https://i.imgur.com/bzTr9Y2.png" group-title="Cignal",Dreamworks Tagalog
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=564b3b1c781043c19242c66e348699c5:d3ad27d7fe1f14fb1a2cd5688549fbab
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_dreamworktag/default/index.mpd
+
+#EXTINF:-1 tvg-id="moonbug-kids" tvg-logo="https://i.imgur.com/ILaPSzA.png" group-title="Cignal",Moonbug Kids
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0bf00921bec94a65a124fba1ef52b1cd:0f1488487cbe05e2badc3db53ae0f29f
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_moonbug_kids_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="cartoon-network" tvg-logo="https://poster.starhubgo.com/Linear_channels2/316_1920x1080_HTV.png" group-title="Cignal",Cartoon Network (Cignal)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a2d1f552ff9541558b3296b5a932136b:cdd48fa884dc0c3a3f85aeebca13d444
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cartoonnetworkhd/default/index.mpd
+
+#EXTINF:-1 tvg-id="nickelodeon" tvg-logo="https://i.imgur.com/4o5dNZA.png" group-title="Cignal",Nickelodeon
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9ce58f37576b416381b6514a809bfd8b:f0fbb758cdeeaddfa3eae538856b4d72
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_nickelodeon/default/index.mpd
+
+#EXTINF:-1 tvg-id="nick-jr" tvg-logo="https://i.imgur.com/iIVYdZP.png" group-title="Cignal",Nick Jr
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bab5c11178b646749fbae87962bf5113:0ac679aad3b9d619ac39ad634ec76bc8
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_nickjr/default/index.mpd
+
+#EXTINF:-1 tvg-id="ptv-4" tvg-logo="https://i.imgur.com/jRvEV4E.png" group-title="Cignal",PTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=71a130a851b9484bb47141c8966fb4a3:ad1f003b4f0b31b75ea4593844435600
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_ptv4_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="rptv" tvg-logo="https://cms.cignal.tv/Upload/Thumbnails/rptv%20logo%20final-02.png" group-title="Cignal",RPTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1917f4caf2364e6d9b1507326a85ead6:a1340a251a5aa63a9b0ea5d9d7f67595
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cnn_rptv_prod_hd/default/index.mpd
+
+#EXTINF:-1 tvg-id="bilyonaryo-news-channel" tvg-logo="https://i.imgur.com/FxHmXYU.png" group-title="Cignal",Bilyonaryo Channel
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=227ffaf09bec4a889e0e0988704d52a2:b2d0dce5c486891997c1c92ddaca2cd2
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/bilyonaryoch/default1/index.mpd
+
+#EXTINF:-1 tvg-id="cnn-international" tvg-logo="http://115.146.176.131:80/images/2acf9495fde07739914e7a7bb3ffee94.png" group-title="Cignal",CNN International
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=900c43f0e02742dd854148b7a75abbec:da315cca7f2902b4de23199718ed7e90
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_cnnhd/default/index.mpd
+
+#EXTINF:-1 tvg-id="bbc-news" tvg-logo="https://i.imgur.com/CTf7nGs.png" group-title="Cignal",BBC World News
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f59650be475e4c34a844d4e2062f71f3:119639e849ddee96c4cec2f2b6b09b40
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/bbcworld_news_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="bloomberg" tvg-logo="https://i.imgur.com/2WGEb3V.png" group-title="Cignal",Bloomberg
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ef7d9dcfb99b406cb79fb9f675cba426:b24094f6ca136af25600e44df5987af4
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/bloomberg_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="abc-australia" tvg-logo="https://i.imgur.com/SHwfqzO.png" group-title="Cignal",ABC Australia
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=389497f9f8584a57b234e27e430e04b7:3b85594c7f88604adf004e45c03511c0
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/abc_aus/default/index.mpd
+
+#EXTINF:-1 tvg-id="cctv-4" tvg-logo="https://i.imgur.com/TuwJPPz.png" group-title="Cignal",CCTV-4
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b83566836c0d4216b7107bd7b8399366:32d50635bfd05fbf8189a0e3f6c8db09
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_cctv4/default/index.mpd
+
+#EXTINF:-1 tvg-id="france-24" tvg-logo="https://i.imgur.com/d8doNpe.png" group-title="Cignal",France 24
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=257f9fdeb39d41bdb226c2ae1fbdaeb6:e80ead0f4f9d6038ab34f332713ceaa5
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/france24/default/index.mpd
+
+#EXTINF:-1 tvg-id="tv5-monde" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ADB5E-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" group-title="Cignal",TV5 Monde
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=fba5a720b4a541b286552899ba86e38b:f63fa50423148bfcbaa58c91dfcffd0e
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_tv5_monde/default/index.mpd
+
+#EXTINF:-1 tvg-id="one-news-hd" tvg-logo="https://i.imgur.com/25PG6TF.png" group-title="Cignal",One News
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d39eb201ae494a0b98583df4d110e8dd:6797066880d344422abd3f5eda41f45f
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/onenews_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="lifetime-sd" tvg-logo="https://i.imgur.com/ZyqbNXn.png" group-title="Cignal",Lifetime
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cf861d26e7834166807c324d57df5119:64a81e30f6e5b7547e3516bbf8c647d0
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_lifetime/default/index.mpd
+
+#EXTINF:-1 tvg-id="asian-food-network" tvg-logo="https://i.imgur.com/PUe61Ov.png" group-title="Cignal",Asian Food Network (Cignal)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1619db30b9ed42019abb760a0a3b5e7f:5921e47fb290ae263291b851c0b4b6e4
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/asianfoodnetwork_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="food-network-hd" tvg-logo="https://i.imgur.com/FZBze3z.png" group-title="Cignal",Food Network
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b7299ea0af8945479cd2f287ee7d530e:b8ae7679cf18e7261303313b18ba7a14
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_foodnetwork_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="hgtv-hd" tvg-logo="https://i.imgur.com/a6gRxAV.png" group-title="Cignal",HGTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f0e3ab943318471abc8b47027f384f5a:13802a79b19cc3485d2257165a7ef62a
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/hgtv_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="fashion-tv-hd" tvg-logo="https://i.imgur.com/lb9cHrS.png" group-title="Cignal",Fashion TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=971ebbe2d887476398e97c37e0c5c591:472aa631b1e671070a4bf198f43da0c7
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/fashiontvhd/default/index.mpd
+
+#EXTINF:-1 tvg-id="travel-channel-sd" tvg-logo="https://i.imgur.com/8ukGHjv.png" group-title="Cignal",Travel Channel
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f3047fc13d454dacb6db4207ee79d3d3:bdbd38748f51fc26932e96c9a2020839
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/travel_channel_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="history-hd" tvg-logo="https://i.imgur.com/oJQJyhb.png" group-title="Cignal",History HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a7724b7ca2604c33bb2e963a0319968a:6f97e3e2eb2bade626e0281ec01d3675
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_historyhd/default/index.mpd
+
+#EXTINF:-1 tvg-id="crime-investigation" tvg-logo="https://i.imgur.com/9QBOVGF.png" group-title="Cignal",Crime & Investigation SD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=21e2843b561c4248b8ea487986a16d33:db6bb638ccdfc1ad1a3e98d728486801
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/crime_invest/default/index.mpd
+
+#EXTINF:-1 tvg-id="discovery-channel" tvg-logo="https://i.imgur.com/XsvAk5H.png" group-title="Cignal",Discovery Channel
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9ac48f5131641a789328257e778ad3a:b6e67c37239901980c6e37e0607ceee6
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/discovery/default/index.mpd
+
+#EXTINF:-1 tvg-id="animal-planet" tvg-logo="https://i.imgur.com/SkpFpW4.png" group-title="Cignal",Animal Planet
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=436b69f987924fcbbc06d40a69c2799a:c63d5b0d7e52335b61aeba4f6537d54d
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_animal_planet_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="bbc-earth" tvg-logo="https://i.imgur.com/vip1JIz.png" group-title="Cignal",BBC Earth
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=34ce95b60c424e169619816c5181aded:0e2a2117d705613542618f58bf26fc8e
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_bbcearth_hd1/default/index.mpd
+
+#EXTINF:-1 tvg-id="tv-maria" tvg-logo="https://i.imgur.com/8rLJW8s.png" group-title="Cignal",TV Maria
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=fa3998b9a4de40659725ebc5151250d6:998f1294b122bbf1a96c1ddc0cbb229f
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/tvmaria_prd/default/index.mpd
+
+#EXTINF:-1 tvg-id="deped-tv" tvg-logo="https://i.imgur.com/Ii7tRrE.png" group-title="Cignal",DepEd Channel
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0f853706412b11edb8780242ac120002:2157d6529d80a760f60a8b5350dbc4df
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/depedch_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="knowledge-channel" tvg-logo="https://i.imgur.com/4O93eBO.png" group-title="Cignal",Knowledge Channel
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0f856fa0412b11edb8780242ac120002:783374273ef97ad3bc992c1d63e091e7
+https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/knowledge_channel/default/index.mpd
+
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz, https://raw.githubusercontent.com/atone77721/CIGNAL_EPG/refs/heads/main/cignal_epg.xml, https://raw.githubusercontent.com/atone77721/CIGNAL_EPG/refs/heads/main/sky_epg.xml"
 
 
 
@@ -1163,7 +980,8 @@ http://161.49.17.2:6610/001/2/ch00000090990000001134/manifest.mpd?JITPDRMType=Wi
 #KODIPROP:inputstream.adaptive.license_key=http://143.44.136.74:9443/widevine/?deviceId=02:00:00:00:00:00
 http://161.49.17.2:6610/001/2/ch00000090990000001155/manifest.mpd?JITPDRMType=Widevine&amp;virtualDomain=001.live_hls.zte.com
 
-###### KAPAMILYA ########
+
+####### KAPMILYA ######
 
 #EXTINF:1 group-title="KAPAMILYA" tvg-id="kapamilya/a2z" tvg-logo="" provider="KAPAMILYA" provider-logo="" provider-type="iptv",[KAPAMILYA] A2Z
 http://ixp.enixph.com:9111/stream/kapamilya/a2z/master.m3u8?u=enix&p=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
@@ -1386,6 +1204,7 @@ http://ixp.enixph.com:9111/stream/kapamilya/vivacinema/master.m3u8?u=enix&p=e3b0
 
 #EXTINF:75 group-title="KAPAMILYA" tvg-id="kapamilya/warnertv" tvg-logo="" provider="KAPAMILYA" provider-logo="" provider-type="iptv",[KAPAMILYA] WARNER TV
 http://ixp.enixph.com:9111/stream/kapamilya/warnertv/master.m3u8?u=enix&p=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
 
 ########## World TV ##########
 
@@ -2122,6 +1941,13 @@ https://live20.bozztv.com/giatv/giatv-cartoonchannelph/cartoonchannelph/playlist
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 12; Pixel 3a XL Build/SP2A.220505.008; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/114.0.5715.0 Mobile Safari/537.36
 https://linearjitp-playback.astro.com.my/dash-wv/linear/9982/default_ott.mpd
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://qp-pldt-image-resizer-cloud-prod.akamaized.net/image/E55ABB06-C9E1-11EC-9D64-0242AC120002/0-16x9.jpg?width=1980" channel-number="37" group-title="CARTOONS AND ANIMATIONS", Animax
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=92032b0e41a543fb9830751273b8debd:03f8b65e2af785b10d6634735dbe6c11
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_animax_sd_new/default/index.mpd
+
 #EXTINF:-1 tvg-id="Treehouse.ca" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Treehouse_TV_logo.svg/1920px-Treehouse_TV_logo.svg.png" tvg-name="Tv channel name" group-title="CARTOONS AND ANIMATIONS",Treehouse
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2151,13 +1977,15 @@ https://a53aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/jts4tzzv1k/o
 #KODIPROP:inputstream.adaptive.license_key=f5df57914a0922d5d5ed6b0a4af6290a:c62b10a180d1770a355b3c4cb6506ca0
 https://uselector.cdn.intigral-ott.net/DJR/DJR.isml/manifest.mpd
 
-#EXTINF:-1 tvg-id="" group-title="CARTOONS AND ANIMATIONS" tvg-logo="http://apkip.tv/logos/UK/Nickelodeon.uk.png",Nickelodeon
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"vaX3u8HkQJb3eaBhn+mIHw", "kid":"2FIOlqEoOrblvlOEdL+oEA" } ], "type":"temporary" }
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
-https://linearjitp-playback.astro.com.my/dash-wv/linear/2511/default_ott.mpd
+#EXTINF:-1 tvg-id="nickelodeon" tvg-logo="https://i.imgur.com/4o5dNZA.png" group-title="CARTOONS AND ANIMATIONS",Nickelodeon
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9ce58f37576b416381b6514a809bfd8b:f0fbb758cdeeaddfa3eae538856b4d72
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_nickelodeon/default/index.mpd
+
+#EXTINF:-1 tvg-id="nick-jr" tvg-logo="https://i.imgur.com/iIVYdZP.png" group-title="CARTOONS AND ANIMATIONS",Nick Jr
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=bab5c11178b646749fbae87962bf5113:0ac679aad3b9d619ac39ad634ec76bc8
+https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_nickjr/default/index.mpd
 
 #EXTINF:-1 tvg-id="Animax - [Channel 157].id" tvg-name="" tvg-logo="https://i.imgur.com/MiUDLVa.png" group-title="CARTOONS AND ANIMATIONS", ANIMAX 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2214,14 +2042,75 @@ http://xxip25.top:8080/98333898/98333898/125637
 
 #EXTINF:-1 tvg-id="" tvg-name="24/7 Adventure Time" tvg-logo="" group-title="CARTOONS AND ANIMATIONS",24/7 Adventure Time
 
+
 #EXTINF:-1 tvg-id="mrbean" tvg-name="Mr Bean Live" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdSj6OHTQv9_53OX9ZwSjCqOTkYj5dDUZUW0irJhXranWx7zI1YhEIwg&s=10" group-title="CARTOONS AND ANIMATIONS", Mr Bean Live Action
 https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/cb573d1d7d6c648b92d43b66cef24582847b3dcb0e6c886470af4a9765d96300dbf9b9c8fd3ab13c1ec0468a710b6d5a4d1cd209af3c419b8b1dfd034f25536b9f9bb565da9f0211c9a06b5756af6a4208a55b05a7700079d6a05a2b8d2fba74005cb95a3c1862c3ed47ad662f9ad253d72a39e8fc8b307b24455a9c5a43e6a64cb7abe95810893aa5b00140c12e14fa83439fd401b388d50f8315d775a514c893a182da1187e4205293728aecdb5f581fa9a83bf8f955bfd6937929957f2d556c3a8cc1b2cd3ef702da21269cded8b6648560a63ebb89125a980194408b338b65ea2aaef557e2dad320aaea5ad6a60b315dccc8a59ee93a739067f5abe5dc391af392452c179b3f994a5f491a999f65d2ff58b6cf8d6d06d79d67feb10ff0bca18aeeffa04b922cc6c6ce7a5c28414e0b188f51ae9b228e678d38e0e21a2f49551fedbb5bc094d65734221ed6db1eff5a5b98cb9b8fda393ec84b124ea7358a0c4b3f9a742457cd19d4b6702c852f0180751afe5b3e8f0bbc9b24e7a8d6e0496ae68c8912b13fa1e54afff900a061391931b2f42d4d4c032883b9285e660bae2f83f2c4e5650609e885afaf9029580d5a460a586b835790052ba668aed8b933cf2257196f9860690e20e9/184/1280x720_3329040/index.m3u8
 
 #EXTINF:-1 tvg-id="l" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStcbI0YvbF7Ef1t_ybcNNTEeDDjKLxT9W8RHMLH4tJZ5Ua90szKZGcf_c2&s=10" group-title="CARTOONS AND ANIMATIONS", Ani One
-https://amg19223-amg19223c9-amgplt0019.playout.now3.amagi.tv/playlist/amg19223-amg19223c9-amgplt0019/5c9a5801-8d1b-11f0-a0e7-52a8615cc2eb/98/854x480_1478400/index.m3u8
+https://amg19223-amg19223c9-amgplt0019.playout.now3.amagi.tv/playlist/amg19223-amg19223c9-amgplt0019/90d97478-8d9c-11f0-b1b4-a2351d62d949/113/1280x720_3000800/index.m3u8
 
-######### ONE PUNCH MAN ########
 
+
+
+########## MOVIES ############
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies", Titanic
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=00162462ee76f876e8020a21d75d6c6f:ac0b492042d189c221921b266a6592c1
+https://g003-vod-us-cmaf-prd-cf.cdn...19639923269_7c64_01/mpeg_cenc/master_cmaf.mpd
+
+#EXTINF:-1 tvg-id="" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyR5QpP7AHT91oLNzml1vFLH6ULG5fYvwuvrHwak0STvIN03hPwT9iQsYs&s=10",SPY x Family: Code White (Tagalog Dub | 720p)
+#KODIPROP:inputstream.adaptive.manifest_type=mp4
+#KODIPROP:inputstream.adaptive.license_type=none
+https://pixeldrain.com/api/file/SvGYx4fs
+
+#EXTINF:-1 tvg-id="5002:0:19:112F8:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/09/oumprkO9bThExP8NwxBIBnvBu2v1-200x300.jpg" 
+group-title="Movies", The Life of Chuck (2025)
+http://s1.gmtcloud.site/video/moviess/TheLifeofChuck2024.mp4?id=0
+#EXTINF:-1 tvg-id="5002:0:19:112E7:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/09/svXVRoRSu6zzFtCzkRsjZS7Lqpd1-200x300.jpg" group-title="Movies",Nobody 2 (2025)
+http://s1.gmtcloud.site/video/moviess/Nobody.2.2025.mp4?id=0
+#EXTINF:-1 tvg-id="5002:0:19:10CB0:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/9qQjd8Af0G7UmteRHruihS1lBZy1-200x300.jpg" group-title="Movies",The Naked Gun  (2025)
+http://s1.gmtcloud.site/video/moviess/The.Naked.Gun.2025.mp4?id=0
+#EXTINF:-1 tvg-id="5002:0:19:112CF:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/09/waQoVqRSbttoWQYeWBtR8mAJfvZ1-200x300.jpg" group-title="Movies",Bambi: The Reckoning (2025)
+http://s1.gmtcloud.site/video/moviess/BambiTheReckoning.mp4?id=0
+#EXTINF:-1 tvg-id="5002:0:19:10D12:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2024/08/cdPCTAay6GR32vb2snhIOhozDCd1-200x300.jpg" group-title="Movies",The Home (2025)
+http://s1.gmtcloud.site/video/moviess/The.Home.2025.mp4?id=0
+#EXTINF:-1 tvg-id="5002:0:19:1122B:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/pp6Rg9Ls2g7EaLhJriHx1gI99h1-200x300.jpg" group-title="Movies",Love Untangled (2025)
+http://s1.gmtcloud.site/video/moviess/Love.Untangled.2025.mp4?id=0
+#EXTINF:-1 tvg-id="5002:0:19:111CE:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/jSG2mg1998DUAam6X9EA6SeJmqD1-200x300.jpg" group-title="Movies", A Line of Fire (2025)
+http://s1.gmtcloud.site/video/moviess/A%20Line%20Of%20Fire%202025.mp4?id=0
+#EXTINF:-1 tvg-id="5002:0:19:111C7:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/uoBrXKe1qE2wFXOw71GuiIXETYV1-200x300.jpg" group-title="Movies", She Rides Shotgun (2025)
+http://s1.gmtcloud.site/video/moviess/She.Rides.Shotgun.2025.mp4?id=0
+#EXTINF:-1 tvg-id="5002:0:19:111C0:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/jukxj88V6GmpkJWn6PjiKodxa7A1-200x300.jpg" group-title="Movies", Werewolf Game (2025)
+http://s1.gmtcloud.site/video/moviess/Werewolf.Game.2025.mp4?id=0
+#EXTINF:-1 tvg-id="5002:0:19:111BC:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/d3T9jjdLjnhMzuFvmWImlVKiIrv1-200x300.jpg" group-title="Movies", Fantasy Football Ruined Our Lives (2025)
+http://s1.gmtcloud.site/video/moviess/Fantasy.Football.Ruined.Our.Lives.mp4?id=0
+#EXTINF:-1 tvg-id="5002:0:19:1110E:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/8FP2ObEGIiQYQCf83gL4ZVzwZF81-200x300.jpg" group-title="Movies",I Know What You Did Last Summer (2025)
+http://s1.gmtcloud.site/video/moviess/I.Know.What.You.Did.Last.Summer.2025.mp4?id=0
+#EXTINF:-1 tvg-id="5002:0:19:1116F:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/qiZqJaq7OQ5QGV4F71JvQcR8p3T1-200x300.jpg" group-title="Movies", The Thursday Murder Club (2025)
+http://s1.gmtcloud.site/video/moviess/The%20Thursday%20Murder%20Club%202025.mp4?id=0
+#EXTINF:-1 tvg-id="5002:0:19:11103:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/8cAXLYDmn0POhjqzTHeT6rJMUVc1-200x300.jpg" group-title="Movies", El secreto del orfebre (2025)
+http://s1.gmtcloud.site/video/moviess/The.Goldsmiths.Secret.2025.mp4?id=0
+#EXTINF:-1 tvg-id="5002:0:19:110E6:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/m3qJWpGzuimIjNnWvibT7L5R1Dd1-200x300.jpg" group-title="Movies", Red Sonja (2025)
+http://s1.gmtcloud.site/video/moviess/RedSonja.mp4?id=0
+
+#EXTINF:-1 tvg-id="" tvg-name="And the Breadwinner Is..." group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZV5jBqOfbRS__zipW7kZhZgP3PA5nEOAXHmWV4k6pz-gmmAEa4WeuzWY&s=10",And the Breadwinner Is... (1080p)
+#KODIPROP:inputstream.adaptive.manifest_type=mp4
+#KODIPROP:inputstream.adaptive.license_type=none
+https://pixeldrain.com/api/file/73hnsfQ1
+
+
+#EXTINF:-1 tvg-id="" group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/93/KPDHposter.jpeg",Kpop Demon Hunters (Tagalog Dub | 1080p)
+#KODIPROP:inputstream.adaptive.manifest_type=mp4
+#KODIPROP:inputstream.adaptive.license_type=none
+https://pixeldrain.com/u/EzwjBkSb
+
+#EXTINF:-1 tvg-id="dbz-bog" tvg-name="Dragon Ball Z: Battle of Gods" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlVZJn21VO6PpB0ngI8W5qMow70wBOrOk8y0DlrFAFGN051NvcmrgrAFj522nFr2GT11fGkpaC0v9vkbFOc7km-lmhRMwjWGWtZbfFGg" group-title="Movies", Dragon Ball Z: Battle of Gods
+https://series.shakzz.workers.dev/?id=1HdNzQ__MueYep_vtVCV8mArG5VMedGgb
+
+####### ONE PUNCH MAN ########
 
 #EXTM3U
 
@@ -2262,382 +2151,8 @@ https://series.shakzz.workers.dev/?id=1G7zZkdzJKrh0PSejaxrmgkDMyI_WSjbH
 https://series.shakzz.workers.dev/?id=1GEi51c0Oo6zkshEa1E1pagK591QbHMCW
 
 
+######## DRAGON BALL Z ##########
 
-######### DRAGON BALL Z #########
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 1
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=fQtDE2CIQoB84f%2F%2FwwqAPXTaagPuv4bx%2FhtVO%2BFViy7fe759%2F9SSBbaDHmlhRNX3&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=9cb0dd473231a60905d808058bf91d9df2b7be9d2ce00c9afcc2d2f7a920d08c
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 2
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=nqtUPB9kNNe0j7wSdohv8Pzwxn7i47iiZNordWQtsDq6xHNQC1di8mN4JxD3hy7r&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=71857700e241782dd3db542e7932b9e1b6b8d120bb9e75f21334b21fb9eebff2
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 3
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=nFE0GrNKv4S08NDU0BAtk5tiImKuPO94w9HzNPvWNOYRPvFeKu2c5%2B1Ryd3sCfGE&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=e054cb1f660df1c2dd38f10bf56be02e2a0101092a533272644a3bb98a006270
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 4
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=%2FIyMOs6oyt%2BTGpDtcRi5V%2BGxzdMZ%2Ftgjuu2XHjJBycabp4yC0uLxhMNuAIzYTqfR&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=6a858ae6f4157ae2ceb8cc24fc53c1199eb0152a3ec6a8c6595e22c7d9bc3f13
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 5
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=6uKckSu3eyI93L5vJGrSR2j89oKQFGFG%2Fayy75QL1DgdF6V3U4pYAHexBzVX3uL6&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=429ef91414672a515d421d56031868b886d18c0abd5c7ea59a629dd95e752954
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 6
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=94skdzpctbBggJiIbwxoDaA6oOFEmr58ISdajNt%2BGAG%2FXIQlU1mHUfUmB2Ko1Hvd&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=d7ee5458fb1f98f8cdb3125f878b22d2279361e704550dee04c0d813b90dff54
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 7
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=ibEGhmuOZgPEeiIPVDwA%2FfpEPIGkhNgBcueWsaanGzIIm6%2BQDu36mWvrrWI%2BTmni&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=e9382e3d0c1fc128f2c39a69c83a141f4fe016acd76e7c4b52c2917a1d7bcfc9
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 8
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=EWxymabzDPemmz%2Fj8zLASF4hrthpp1s6hvAWxLPdo9Z84IFvR0gsrJEKqZ2hTGf3&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=f776099d8aacbebe23581e46af5375d64e30b9f4f53984775ba18a8881bb4c5e
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 9
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=s5jgN2lSFUJqoipvbEtt%2Bsbt26J9ScpNNOY%2B%2FI%2FWzHxFRrDSSCvLjdC0djVrsllB&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=669cb51e31e6a15abdcc2f0957930ac1dab1fb1b31b34786cc993dc1a12c803e
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 10
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Rm254NfW5CIEFH37V7k54suDEE946u%2FBodZamd0%2FElQdAke3RHsHTwriuiiV%2FwaW&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=e36962dc8b48fc1296cd4bae2d98895e0467b5c5a2b9c946eb451f692e8685c1
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 11
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Kg7Y75sRV9tLpwQPjlGaPD4ZoefxHkmeik2K6WXuKhTXfkEFg%2BJab2AomlaQSwcJ&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=71ca6e3b8d725156625ae781d11af9449effb0a7582f868f701580f561aacdb2
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 12
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=j7su5WEeCOYb3s%2FTxtiM%2BdGuNuptEmTWKnZn%2BDZEEvJcRIzGFN7lNET3GLScLUJR&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=3e341524c9a9ab5a23c0abd1f92927c5a7f666d552a61920c9951c56e66bdb95
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 13
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=KJtfGcPzHvSDzt1dYKWLM3KNjSNRB2EK8hcYNhtX82WysKOB6UjYrphtKTWjWmwr&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=300b630f152da7c7d24910e24f3ca8170b7132b88511cea2937f0de62dfcc8b7
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 14
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=ikt1kCecXkGbfzFup2WoWQSHCkiOxbtoCEOa5IBkSolVie%2FQm%2BWhuMc3vAeXbW2T&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=0367bf21dd00e22035420c8a94f3b288acffa1eb28d79268aa338cf6d6111cfd
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 15
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=I4YjNDFKiaT04h79X0sRNBkVIsntFWQ5sHADgfPEAUKDl84UmcRBLj6sKI8UvwFz&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=49bfbca9798722beab0327c488d6b01c2f1e6b414f50e82e8305975d67ea1394
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 16
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=rA%2BAJQ4kLcbf4DDTsLjNw3DBmfoo8GJ2hdDEe6pkaWfkiYZOofBZtl8ldPJVnPLG&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=199537f2cc6317ce1da9b61ac53173599a723b0ea38702d67a2ab9825cf0555b
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 17
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=90RWeD6%2BtmYFpCeXZYxZjsqyXZdvEUPjS9br%2FlUBecpcLJkkNYu9e%2FqEcy8C2TZI&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=8fa79e16829b1b14a1d25c67510dfe41857258db36b181d70de8894a30992e3c
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 18
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=pz%2FNV1vIuqj7vwTZkMHP%2BUfivBpb74nvrumrCIRCOzi77yXAAR2D5Lw2g4h8%2FO4l&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=a32a9cdc628cf072af05b6d2164eef72c7e20cf5ddd798723e4dc30a4de71ceb
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 19
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=2%2FhxlJxn0RlwTSFrsJTxQMAkUYH8fOzBwTvL6neq4Yiv9xjtpeWcplf1b0LT%2BUno&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=8ac6fbb5d55067ced7c94942546d4d23f52ef4fa8e3b090c78020c6b4e7902c3
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 20
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=m22psDcNxAAW%2Bs%2FhkomwHrXNSJvE3GIF7zfCwK8FNPwX0AEMysvbf%2F4sa1LJP2mS&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=91e95f801852aea8a392fc5defc9ceb7d4c976e0dcb59379b72abcc2fc28cfc0
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 21
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=WV%2Bp5dgzjzNBm%2BR2GSzumoWNRjZIhTJeR242yh3p47T2lO4UlKO%2BdEp89EiP5FbT&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=22d98f53678f546a8d518db025922515ee1febd116830b1c13ed07e7da598ff4
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 22
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=gKtm7ZvLmdceG5BcOAtaklHCx2i8GwaSwkIJJ1dHIahw7jyEF3i4n07txE%2FHtWgW&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=f0632da63b541e96d093422108a1651bc5479159b1c73c71b81ccff917fffbfd
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 23
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=56VxfHkDwdwOl%2BuECsimp9VbZuCV8xzra4GojR4afBBatv2ZikQGsnfND9uv7D8u&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=c392e7116da197efd6433a8689ca42942b08525d4489b43c21ea0324e9357e73
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 24
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=2K5amwW1H6fsVlDislTSx%2FOSCTtLIxgLeWhYt3j9It8PHrYmTn1et4mygsAKuu0D&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=ad2efbc42ec0c68a2689177f78d59b8748ef40e07a4c44645550f4c766388bb8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 25
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=TwEOHqCVK7BxR6CsbGEGTPH%2F%2FO4oka8gF22x0LyYqlQaFmUr7UAWkVsfwst2hK5o&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=d13cb66be112ebfa28d56456e24a6014c7fc9e807cacef6fe29d61ba1f878295
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 26
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=OcZOmkt%2F130J0vNKdrrb6bBXWzsSSS2UkUZIDhuOcAL0ACnx%2FCan7cxpx%2BuZ3Bmi&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=f9c110da962f09c5d78b53f904cd0a7216a6ff8198c7bbd236d0b277ff78f103
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 27
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=lnT7okSWfNgbz5SM0RC0yNCm0xD9c9ShBDzxVXWKLXc8EhBfMgGdOV7NWBTxeSyp&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=f8b9ff6e74c9fef04006561b3d821f6a4d44f8db5916aa8a1ecb86a2fe7b132e
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 28
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=yZCKb8gksj%2FUqfaBTKW5iTmM6AVnGttiPQrQcUmM4vmO9yHTomNad3PViX9AZP4a&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=72c851961f47aab63c636aa5c8f51753fe1e19e401c5add60fdaf26e68baf30c
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 29
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Q0YnsJIdIsB8NOx8aXtpeRtvbLFcMtMcHCizof4Vck5ars6fCCOgeN97MD9dbZFv&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=62821bc9e86b6ba1b07221a04c8040bcb6bca77c87119e2c986548f7eeabf312
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 30
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=%2BrsS3OrTcELJMdHJZ3lMMwDJBSCByhQpnRbd%2FZDL9akAK2wW22CphVZ3X0VZ7TFU&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=908ee2ef772194c0747f78cce21a54d11e76fac5571d76e1c412143f7e20e318
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 31
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=K0fBci6v0OVu6q2dntZNJe%2BzV%2BMX%2F9mOl7fewOUH2Ju%2FR7Rodm5%2FVJyViqsIH%2BK2&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=1215cfd36dfaf3a024b57aa222d3129e470ad1d98885640d26089272ee5db341
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 32
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=8tnLWQ%2BKM2wg3Bm2nHL1ZiGIOlzsE9TmleSXCbn8D6U37FaRPCK%2FfmM3pZanMyrw&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=7f59b0b7aec9b57e358aba13ed6a3470c5f0f089ae1112a6b1d8fd9d5298086c
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 33
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=RbU8iCzAB0X%2BzRr%2BrE2xwzDB8qCclMcffNJJ3BsqSjGY9CCSW9cT2Or6LTq3yw7I&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=1b425d9dc2e49aa61cfe413d100d4cb0f532b5f281baa890c47b7b3608003c37
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 34
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=WdfN83OuJXmklEedSNzHWI85eUgRrffaNWC7iKmUqDnW9%2BgA94YDfgv6Wx7WPS%2FK&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=74fe8457e7d03f144e9aa56a4b70f68450372385a28ba7200f06087f8c7f27c9
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 35
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=KmMwm5o4f07%2FGa2%2FebYqHpaHrvAD3YHu5nUaQ6fszXGDM%2FIqhwaFGEwqf3dWAdzp&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=8ec045ae4f06972c2432f6698e136a2f3cbd5c2b2763207629475dd249ece4c6
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 36
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=krp8IVF18tfMtPbEPF92Y2qnhepmZAL44p7I9wxQyJ36eWlGtSRugsEVJ8hKMGRl&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=d89bcd6dd067ccf61650722ac6d796d51c0fd995e9bc6de27ca1594b7b43d508
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 37
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=AzOnOvY2kWTQr3nIxvVnXB3hpVCVW%2ByodxhMPsuruqc8%2BORdZb1qGS2D7GEwYlV4&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=340054fffbb5f9915cbcccc09a1521270678ddc596067a33487468cbf8287d32
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 38
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=PRPbyti19e4dnamFy1lxkUQ9VXtB597fp4Z%2BIpeNreaLGH7js%2BMe465xOw9kLdMy&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=b49a9b82791ac73b0b6138ef70fa2de2070c8c252fa03a0c81f5b3e7dc3849d9
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 39
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Fq4gYJ2C9gr9wLMvS7MkMx2WYaNgZAFR6%2BeRMQXuF2F%2FZlvLJaXdt7NiyBWMaGj2&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=6ad753b77203fad977210454de35bdb93dc14de951e230eb65debb3e282ebf0b
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 40
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=TvhltNPDiy4fYTYUJ8D90cLz2d99hILgjQc1LLpRdlbgniVy9wc5Ijt0wZo8QSE5&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=172ca2dd74624676361d9c1917d1cfe7a583340d049b842816032777863aa94b
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 41
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=KFsWos7C21q%2BP6QXiozz4lhQAChdILzoNzjfiAUQOdjaYBVf9oLR85y6pL%2FjoIjE&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=bd0c424aeefe68410ce8681febf83214757566d6456dd69ec43fd08300bd8d58
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 42
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=FwKhb65IC3w5iTStbhM%2FLciVEu3pdNXvuV%2FNH7ZUkE%2F%2FtPn9tv1Vb4%2Bv2oTaJH9g&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=53e9816eb94995f1331a0b863395e04acf68245067bc5f0f6a099a964efa7002
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 43
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=yTCjFmDTTmCjrxFIfoVO%2F6gp9NqYvaupg0qenOqQFIawrYH3Dtt%2FeNRVGWU8MC12&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=35423d745d039c6e6201d351a53405f487e044d632df5f67e888d9b284fec627
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 44
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=UAvHTN%2BtW7dxnlRgSlsGldQF%2FeL7hUikFMTlaP4FqGGYOaVzQZ4dEfaec%2FjxCcJC&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=679322a13b7adee150ade1d2999042c6a47e8b7a2ef3631f66090e7c3533bd77
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 45
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=WOZ%2FTggqX57Nel0dbvqKrayJe6ya58R4Jx7L0vvFVZcGTAGjOvWEY6xAvUYldqvE&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=5bd5c4af43fdcecf1b6c7011690d563a67d50893c966ec2776f5c1c7c014078d
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 46
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=oQPO9t6Y%2BK7HCO1V%2FYRB2x2vVXJzp1llLAgm3WWVMiOi3pgsZZ2DCDzeFbeyx8Tg&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=cfa364e9918ac9f3f93ebeefe90fab967f352ebb0671b4c779b9d29aeff208db
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 47
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=aImMj%2BrJ%2BQh0X3xQGPMNk2wu5vXQJZLbV3euts58HCVb44qaxL6%2FajVRhKAUTZhX&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=40bc8b0b3a8e505a21f592636b6378cac07a78333ebb12faf4e9f544a2987115
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 48
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=0dQoitg3%2BOqnsKh2bKIXd91r3zm0pEjcMs4BkiDMrBxdH5%2FeU%2FJWOQmE0Pyg%2Brf6&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=46196e6035c68291b04e2481ae4507dbee50677ffd9431e0dc689b64ba3ac85b
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 49
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=8XZuvazRXf%2BKHhnl8Y2ZkvuIqmaAPMxV9r7oMs1lpEZE%2B3i1z8Hr%2FXO0sCGZ14qg&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=e08e3e23ee58ff2fd58b53e6526567d811b323090275ce601f5d72c206461540
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 50
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=oL2C67I9gEll8MOf16VJ8QlfA6yhpqMFzDrkVnrr20aBdfuVZ9S4Ma20gYDzd4gv&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=574bfeccb44f10e4e5dc3f66c66f7adcaa5e550b912464c84afe2eb654ef926b
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 51
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=7WqDKMgXCp%2FPL67YUVIE7UorxeEwcSZswtHA1PZQGManQE5PfKe5LhMoTEnWSJOp&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=089b87941204594a7f8457a627dcb4f3e3e893d52872cb9cee2d4af61e29c4cb
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 52
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=DqDIrtsbVj9Wh7HUWvDlyzA6gLA4I875XI3WwGqEa0X%2BBnF7xkxhZJjU0qDPvFxB&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=3bda44729990c05be450a91f3c142825a3dc29c0b101c6967423276bbe6f863f
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 53
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=qgVnGt6cSQO3s3U2Uy2wz%2BSfc2Y%2Fufr%2FSjKtJLbeXGOghV7rhdvcfBhe0Zd7XQXP&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=66561f922a1068cfb299b214c4e937dff75dcdb8fee0480fe4be2c7fe05527c4
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 54
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Jl1DYxB0HIriILuiWdQrQrI0CApKaL98VT3cMwsvHGxtlfDHiclAKZQ8dEYYiXd1&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=244340c2f0a45e1391d969682a70a6399bd8540becc0b70b8d784f8d46f1c61e
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 55
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=ojHs7GH0KMlBYJuFeeTeVFJX6gfs5Dan7h6yaMOp3Mh5Y5Ab2sD01l2sVn46uBy1&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=500c4eb580d5fd00a75d14b247d79371b96dc47f73c4399dd1ab1bfefb5ea1d6
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 56
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Bycauo5fL1EWzyLZSrwVeSCvIo1W73bBsqysNl8csKzVcGEQtMR26g%2FTo39PH%2BT9&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=1a3b3218be3f04e03701af84eed9589479afc9cffa4ccf2645faaa7e1d8aa8c3
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 57
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=XqKYwHSrOO1c2bMs%2Bs5b%2B%2Fu7H4E6Z06qBZwJs5m%2BN0CzJDtsNdWHSa6fHm8YNTL4&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=5a81ad5131d7bff9edfdac1fe07385309d2d2a42af2acce3591648deed207ed2
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 58
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=HomVknE4lb4qe%2FG9eY%2BIbo4K%2BgqVsAjdKy7SMGUUvg9hAfD53gQcG0cV9NQc769s&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=4424cf6485d9caf1e3b26c23623cf8a3b1dfd1d4bf573323146df292404da6d6
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 59
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=ZKo1gtaTUobtHIoLHX3CHpswdBRk1Xdj7cAGBftx1eb4Fwfhka79LuzIbiLxcqYH&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=b04a8b9ec127364327bf429843bf0830865ba6320c6ab40ac13d17abb65dd0b6
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 60
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=nxSc9t3YlBNqBBic5mYJK5FR9NdnxnT%2FIyMOzLboPaeNLU365t%2FPXE2ZX%2BBCsfch&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=4409db6358ade1dd726d074a5b3d125e8fa7f1c6c2ba1a37637b5fb427f6fe19
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 61
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=ZDnJM0AdkH1xx5n%2BhTV%2FWTv5dJtwMeh3aPs20smG4CgDSSpTFGwUTTKjK1bN3HSG&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=256ad391ffd49418409b506dc3e78d55c21c9ecf2fe5567cd4db1405d5030f20
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 62
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=uVoU0e30FY9AAbrxN3aQ6hPX%2BycDMeE95VWolCkEgsWe%2Fe23oeSwXSTJ4SdCK5jI&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=f93817dc7e03632ec1cd4f6973ea5807d44e31d5fbb1ffa3f1ab749300079e1b
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 63
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=L5pFkmeazBZpumvn4%2Fc8Hr2wiE9N6H6Pcd2bwYD89HYtMvgS4zLIMpmtw7DIHDEA&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=6fc80dff7ef741c06b47d2217054235a0e6c2259abd485e967d961fb15f0606c
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 64
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=mfbq7LZuDMkr%2Bs8dX8eQfuXw6RJ25ck48bUHsQseBIM7PKA0YHAwQWNVMtLDeWRY&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=fb1e12cf32334313ced7099927aa12e976295f966aa99233a48a27e2f6892df5
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 65
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=e4AB3S7RhHKMsoMlhzFtnd1m2ZRYlSC9PXCAtpCTtOmX0r%2BXSdyv6eJnHwfizkGF&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=76c69da93107a16b05b4fda01afc03cdd3076426d34f965f53cf4ae6f2e2adb1
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 66
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=sQCaRR1HMQeSjpn7hPqrYc3gGkhL8quOlwdLZI%2BJ%2FZ4E9JHcgK4Ild41IMaiZh91&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=ef8b6ae31cad1220cc048eb96ad5b13e836f1385391aa565b843bdf3fadde3cb
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 67
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=pLSTThCgyW50zyOX%2BJ93JJk4x3FyjOm4sMZl6PPhNHVAed6kTe7BY6O1e9obPJIK&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=98cb0aad604d8af4def1eff26ed4258ae7b905262907afde8939619c74842e18
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 68
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Kgs0ZlJFCS1ClpoSPNco%2FtGbiwLwnp3TusxiLBt7cC%2FTxeMy7i7XfFkSQRGPlGnc&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=3a84ffbc5375e7bf08849d82b9219e7c004d692e75ae190c59584dcf197e4b35
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 69
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=JQNB5aSh9o0mY5tTarb3R4IXKfdiMIMOnQelzZHNd%2FRzgI4az9vmvUhsFRb90W7q&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=52b452f54851afe642b62b436e1b1dc739e23c7702966791fb2dabef2dcb3fb6
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 70
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=NDwP3i5sONnIVIYa8gImrUsbKkxyiCc1nnTZGblznAiVUy3nC1zgZxM07bXrehs%2B&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=2ac55ffe44d65299a658016ccb0666676fc80e25fe13fcb2ab6fbe0f9a230f13
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 71
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Cqw9Kmnewqmh%2FhJRFL0zbHpIln7V2NWlyVsMTsey0EI3GDAYwYKJqEeXXAzmHix3&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=9089f66cb124e0ac2293ed90ef6c55adc1261863858b2e0a5f302ab46a54ad53
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 72
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=FrImOBPfzws7lHDpmLWTY%2BP%2FExf%2BQuSUoZo1FI1D80SNbiFKKB7DQ2odBsmJWCI2&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=dbd2a0fdc2b3e44346c2e950729f6f51a9dafee8341da248d6bc0e896ac9c340
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 73
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=psjt29uhHfPH6uuPB4o3GslIh3qejKqe%2BMrzlK5t71HZGIDCHMoX00KMtgEtVCIZ&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=d1d3697be52115543e2098e71505ecf3b2144579871933f796feea11f8487f63
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 74
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Bwj2RmZ7%2FinK4jl9O%2BsOD6%2FCBvrEeau1Hsqfft0hrMnJVGIBpW8QM6zey9jb9Nbn&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=ff10aed20e53bcf12021a84a64eedce389bb52550484c003d72dbfb9090132ca
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 75
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Y4byTOAYF%2FX9xsc8l0UPjGiYanniFqEjPET43ckWGli37fTJYl8oW3wzoM%2BxKFVq&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=2fdf74261d72bf4fa0d2e2c5c856dc1b7a90a75deeb3281323826fec4d3aaf55
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 76
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=V6oNaEFYsRoW8NMjaQdE%2BhAaB0nLOWUJ6843fklP51Q98kDiqyHuzJBCERG6Woke&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=48432b5980f4dcf6832999fd8bc3f2f0816d09a6bb640edfb1e132489eca593c
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 77
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Ng1SCpa38joBHukX2HLyGpEC5Y1388ZRNNFmz2nUW4dlOBNKgwCPuGxUgkVd%2Fhqn&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=d27a542587f06680bc002c5fced7eea32b28e986d8c2420e751e41c2b92d237c
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 78
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=pD0Jkm94gil0sxnoSRGK%2BFCvxxpQneA4lA8oVMJEFR%2BMJxnTqgKZ63fpw3Nn1B%2FT&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=c632c25caf5d597dc7c8fc461a4af665ed3367f701c1fe21bbf318e92442100b
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 79
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=iEf%2BbcRB%2BuAirBECSQvNw4K9oQRqR1t7FWiGVNUX2i9hfCJp043SqYA%2Bg8vdB5xu&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=9677f2f20d935698e40f56255fe9f2d53de0e928dcf035265c31e53b73659468
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 80
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=getQVkWs8lBX3I%2FPDl0k1C90imvI7968W098LBEGh0cW45K3vY1gvGX5Vg39pjon&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=32f94d2e75c5d7cc7348014a5c675477bfe7f9a39a7ab86aa6d93067deeaf13f
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 81
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=hGuWJRqYaWgb%2B92Cj%2FfQOSkeeJTnwzA8aNxGr9YzpIgUKRseG%2Fk6ea6p58UfMRah&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=099019af321ff669e4c3c4a9e68aca8e6ab35767c7aa728c144bcc77892b7fbb
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 82
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=3LkAjA44ackfaHezp8VBQCPzAjAy35s6e1vhxqxwTob7y8h0mrAj7lAXdSOCucnr&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=2d601049355e6f9bf209dc08b9eacfd2a06e3a73dac394199ab95c46b7e99800
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 83
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=82KVykRY1S3nR229uUl5BfQWXvXd6Puw6bBZrAZZaFD921QY6fR30HorKpzDRXQH&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=ae37748823a0623aeb16bc61d8adb68c6d34aed1cc098627227f0f6d81e0a8f5
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 84
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=hlK1EjOoIJgBP2PgfBGTlPL9pqwx1KLpuTsVYchxXWZQmVtg5Px6QbGPJIDZ10P2&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=b8982c432b9b9be9299a2e91dd35920d32559e5f1f7dbceef8b1e6a33d30b8e8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 85
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=4vdB2PDZhV7yvh2DN95KgR3dYyQNwQWtH9RfMN1EBtMfrBUpj2TOZzD0pdLB%2F%2B8Q&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=eb7450a1b6f613c2cd876e2c0b531d8c1d157bd2338686b18b7ff78df8f718b7
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 86
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=12Ai2DFEK9oloZrvEFGYQrK8YBt7B5uQcu21Z6RTytQF7ZndLn%2FvwGoPW%2FlG7ANA&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=bd5a4dc6f1367a896e1f3b24a082ffa6bb90ca5cfb5559b51abb1aa92ea73086
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 87
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=QrLhAVILVBHi9bopqkJYiFNdf%2FXZMHmGmIpFFPdgWPTvGfsRLigElD%2Bzpq0ylEND&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=d747d74d2a5682d7969da7683ff133fee432e7f675b696576365da0e44c4a536
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 88
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=tZAnlPzV1ZJCii18SYWAET3N%2BgrjqRxX0cmFa%2FYnccM%2FZEAnRLbIWQ0RI6BfFuDv&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=a0ff7b1d214281ee402b2a822ab98271ca037a7ec7476abebb71dcef8fc20ecf
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 89
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=dXSDeukx4SnvcPdqKe4E3yigmnlJOqiJaWy3ZCHe0FU65ddZNHXRKKoLi4jrAB1a&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=7789d23b6faf78c6f91714e32c9779c101d01bfb153218ee7791f248b2f84ed2
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 90
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=GTsFS5kCcrak%2FFi9gEOPv5JMGjZsw09n7EHEM32POZVrnhm8el9yft%2BnZVKEPHZu&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=1fb9ab05cb3d71e84374bc6088962ac2231b87da04b133d5f04bbab27bd2e278
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 91
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=K%2B2jF7cGyRqtzijDxt9p%2Bfs02PXAQzJmxpNP6O%2FA28vTxGnLN32eaTIjVi5QlzZu&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=fc0001772d57914d5790d0e0c106fddcf8231c70a36fa8eac21f540db1bda276
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 92
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=64WkBhniLdrIyBHSNL6q3%2BZiFYBoT6pFsEac8zioY0XcfgQsvIbuX9vo6gqquNxn&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=3198f2480bfc053b7e9fdad4b56258132d1ee40bee617b2efbde02cb009f42fb
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 93
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=and8iaxp4LZlHsv%2FgDp5hvyVUTvpGOurVqkza%2BOh9oGyFgcB1u2LevolCQ3AqYXf&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=2b44061da464ffee94025811fdeb4a100549a559ef9912fbe536a2080d0e06b9
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 94
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=kGEsis3sLRp9hDWxsVh2RbWG28sdJ9Q9xDn45%2BWhqYX5Kki1vpZ%2B4toM1Pan1O8d&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=e27e55bca6a7376bb764aae57fe0cb1ca6fb41f8c7709f8c3ff9e22ba55ebb1d
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 95
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=EbN4s5dMRz5X%2Biwp7cU6rMupyeOgl8WpiTQOFNHEg%2B9FKbyhrPA1xBNFabb3VjqG&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=d5e18f1d901e3baf12b2490b66624c165e1c6f3951bcc8d8fca18e0e49a70fde
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 96
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=wVrj808ViiPYENahka%2FzTHDnTA6U%2FxZBU8TDtmc0n0mZhuI4XspyjvYPhfHqsUcX&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=1bf65bca25b7d7bd253e17cc4f4023f1f26b587444c490595ea833da0c4cc6ff
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 97
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=ajAdL7K3vqZo3JbUkcqXmqgbbv2axVmpDNNGykIZL4GRkx0lxIm4mdRNeib%2B%2Be3b&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=b939937832f1fa0f57734ffd6bb064c0623b8187da764311edd3fda12d73f305
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 98
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=fnqiT2giVp%2BWG4UAqo%2F2FV2K%2B62%2F1aNMkRi1a08BXuc%2Bn2siYF8rOr0l38yOei6b&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=b4f17a55a85b7b90bcdc47e10739123ae7bad09556f71eb786713fd6841f5b7a
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 99
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=zFRMXtxlA%2FGOtHK5FApmy8D2OqZ7kF%2BwmGe7lyZikiWLHQTnfJd7K1jaBHridXlD&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=50450167613a77934cf9916e867c4d88e7153109421b03c4a22d348d818f34e3
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 100
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=gX%2BK3gBTiQEZ7i8l13u4C2jeJ1oYwvO8%2BT8ElpwD%2BMMENeLMX30H8bEhW4BJyf%2FI&expiry=wenbOesl0L%2FDyBz18oRBRA%3D%3D&mac=3b59b9f4dd52e1e8b0c1c64a7219d9441429b0134de0199b83de2104ed2f836c
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 101
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=R6j0S0sSgERGU0slbtM6mk164mX3kaq4%2FaEhjaa%2FSQ3S6oYgYF8vmqV5CTiHws3W&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=eb9a001f6120b8f593117ebfb458038cdf64b64d122f5dac5023d71f72dd9715
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 102
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=OmRDQ8zvWGjT5Eg%2FqWCM2l6%2FJSjLpmX2ubjPbSZMGz8N0E%2BCuybfLxCQ4rmq7rxG&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=36d7fb8dc7c5e6d24cd35bf4e0474875942e52df36806102bb633b2f8586a751
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 103
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=RqDXklR1sVeav5LgnjERh8VxTi6AaWqJk4sOR9lyfReW6DKgIj7xkYafAGWDpNnq&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=aebbdf7037ade06f484acd563ea1f0ef70df249543748e3feb12ee4b5a723f83
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 104
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=N4S3oi9DJj%2FZrRrjmzhE67a%2FOw1hCbXql55Bgg37PJ%2F%2FOEUEEaf7rcdgsVijfNjt&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=c2fb763764fba8fa42b2a3cc7cc4a3632b4bf7cfe250b07a6d3bb0f4c3b29cf5
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 105
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=iTphA3O4afP8nycEuzkRuJC02tgtJcjuhLJERhRXxVd9x58bjWJD6i5FTzC9cppK&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=58f77f177730182adf92f5bb3c724070c6c351102d2b834effa641449318c34e
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 106
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=TQQAXWg5L3unR6eO4l%2BRCFrUrEp6zh5UI0DqtEpLCfNyFdEUJH94Nn0TYrRmytAs&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=03d6355148a8099b366721371cd12dbcf2f4cbf18b1a1b57e8a95f521e717def
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 107
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Psy3AbEiuSCfyz5UtGxSxW0cMlg0mqe%2B793gh8DZG7PPkxxT01u%2B6KVC%2BA093fmV&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=f98fe65c4c7b91591eacee8309324f96236688edc5c190d0cc1747ab19199c8e
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 108
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=ayXq3fZrtc79AbVikYI%2BszOVYbYsD7741aPyjtKac%2FMC6R58E%2B8%2FN1Iw3dcw6MNa&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=af638696a46f787d6ce0cf1eee9964d6f142bf6e5ec847cf719b0ecc78567502
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 109
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=WPsiqAw2dYYQzecgrUEUBXJhFuCYOcLEa9V2QYlt5d29igqAL0pbqRLDDZO%2BDH%2Bz&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=72138045eee0ae66e3d189f5082a488c8f8a139a4885a0ec00eebeb7b7669461
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 110
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=DyusaKaBZf6TdQV5fAhIgupJ9WoPhCXPhv9jubdoEAplS%2FpjEByT9eC8aL%2Fum6Ep&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=690143457f242ecae94259de57888e5c46a37b1a7311a96e488438cc2422629a
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 111
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=SyJKBdeonuHwpTLr75l1rQ1SdxaqGGNq55l770pDLOQ%2BvDDIONjMZokLydhtysWl&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=e8f025b234fc2980b3bde59f9b458bb3a9be07052f47f9359c386f8f571b7e00
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 112
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=C7hEwe8pnZrJHNj9pJPq%2Br%2BPlLdEpc%2Bp0K9J8dwVPJBF2ALLMm7ln6T%2BMtvLLNDy&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=714ec15801999628f28137fe760fb1e136364e7e6796ab46b0e992960d6f801c
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 113
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=aKUVpi8Se%2F%2FChScLFAm5vQOzgeu0b93ES5denCl%2ByIWJTZFdTTVjl6TFz5yjy7sR&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=176d85539e5cf002bddf85fce6a76fbace2113244d64c12d1a0c2ea570eac7f6
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 114
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=%2BAtcWyaxu%2BJOV26ueHvX5oeGKTmIHvMz7bZwFPxYka2i%2FDJjzkh6oEFNJMjWUKMi&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=655d06c2d99e9d9abcb96f0ff0f46b4c720069aac895f8109014b97af11cd7d7
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 115
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Sn6t5f3Iwpk4iUaRHOvxNWfkKCJqjQch07wWWkj00m1lRrOqgDb827hfFfRYaXxM&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=ec3de55c55781306c9c212c07f38a2254c7cbcc22b17616387f8a629ca04cc21
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 116
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=aRvqc1BZsZ62MHs0BUK%2FIMqXtGu8a58Ou7x%2F0jUK%2FsNRFSwomLdCgmsTrhF%2FIzj5&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=dee8efd82f22b5f7ba00831440019a4efbe7bc59df25a883114c97769e9f3f59
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 117
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=zslPmxKMQG%2Fxecct%2BtXglvVYK0Uv7TJUA5hHWXxT4hGAlmzz0cGQwzQ07q7ZdXO7&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=32fb87a7e73770c763225dd27da29c610ff843db50b286dd99199816e34fc53d
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 118
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=5Vjc4j0vXFM%2F3kC2s8yjod3hFsKqHLnW4kT984fzt%2BPy%2F7fZCIrv%2FecrY03pDRuk&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=3f196a754845b59d46720b9bb621420be80430cb8560629512eaf4317d272e1d
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 119
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Z3XOuKmpj08GRdKiIGN8WRJ2qsYJeOGpHkWuEq8xqd1RDRgow1O%2FcNit1hqy9oIU&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=3a21a594a9204bec7b4557773bfd10e3deed1a6183a694d57e37b4e52c78266a
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 120
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Xa5vH55yhCvyELc%2FxNtYTjcmfHQ13Lc9EzjA%2BIqc1u3aFLfNQk8c0%2B0tZyOaSsxg&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=bdf297cd986f0b1cefcdd3218a298c6d178c64380a1e27bb9bb3583384a7de18
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 121
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=XDJ3dCJd2ybdX%2BntjOXoEiUG%2FQAouJo%2BL4Nq3ZgQRjMwESxSNXUFAE8S5Yb1rjwN&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=9b84da0a259f343ef476ad4694119f66579eb0cc3ec4ab69fb5f795fdbf71c77
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 122
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=eBlZwllUWz57hL61WM7uH1NGszGO6SxAwVNPdWs2VaVhgtbLlb8470kyZqd2Upxq&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=3ada5b284b1c0c830b5855fa5ea39477c83434459315c37073373c07f1ddfcb6
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 123
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=BiHn5MJ7UAvPCdiK1chy%2Bcng%2Bo0D0jTeA7bdTS1vGXNkkT96NDaNevx2W%2BKJF534&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=98b412b2812ebb9e122d9bc6607575d7babbf02d893907814297e5f939ca12a2
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 124
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=kPBjSuibTHvyTYeFo8WvAmhXH4GL3Tix2yewgijlyN3JKBuROe%2BsVzakWYVvo%2B2D&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=9dd26eb303124f4373983eb4e8dfd52fc71aa664c81cbda3985988e221874c8d
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 125
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=6e%2B%2FwFPPJQR6n5YtoMaXVZqIsXH2fAymEUbXK2mXNcOfXny2zFNcMcVwMEqlL6xI&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=f13522512ee3c2de7f3642933ef99ad69443a382a1c895039166148a240f7f9c
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 126
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=no4Fa1cGA%2Be4vpt9FF1UyBql4pgYDFbIyyo%2FuTtdVH4rL6lZdePRkVbfGGxIkwLD&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=e720b1b3440fa3d6a2f3718100c8317c1140a45748f8255be36803919e7e6870
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 127
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=w2wxzQVvh8ccblw9h4I64Ho0N4NxWS33jIy8sD6xERjLtcIeJNIHHRXYlEqVv38f&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=6823d37c956b9c2593ea47e6f89778d12952accec178e0fdbfeacda00c4cd49a
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 128
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=UpeGdV2AThrvOEzlOO5L11AnIKdSUPan6PqBz%2FnviymM74S48%2B1IKpk6UQauVo85&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=e8ef512eca505eb9ccc9f0e9e4745d86e63d539950324285f5f2356cde64f7cb
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 129
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=DHUnVLUKCoK92dQIa%2F%2BtkmFQsIssQmqZjhoTas96FlNZOmsx4Zdekeyj0z%2Fr%2B8VE&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=91e221eafa8aa79f24dfee46670204777022fe9b685f9709048df06239611c42
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 130
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=%2FyvZh%2B3o%2BEygvueDQeKBzKjYkTvLmtifpHZ%2FrA70tNk%2BZg4DyO0IPqD0qlF4p3Vw&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=d865cfc0087e887de639b279546eec603efc8786b92d84375d08d4539f60dcb5
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 131
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=b5UZWpZ0fcNz0KhToWm6Aff09vhWHO2WZDEfg6mmwZr3WdDDhJhKs%2BD0h4ZKkHOu&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=bd73a8c00c2c679de5f1412d78faf15a66ffe1775193048c09981f99d7054255
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 132
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=MPZb99kqSx9cU%2FqsHMrVnxws03yHWXKPgse8Jq4LhcQ6Fmb6Xkdw6k7fIWSNBFiK&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=2e57bf6eeb807f7f648455381f5803aeb2e108ee8e6ae5bc6b50db76318bb18c
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 133
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Ug3ogDKP3r0XgNP41Pwrvpw3JYk8TzsdXn0b8TRKCz2uESouC%2BufXld6q1zGqplu&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=cce34eea6c4c47d406c2d46675cf62b773d995d2f36e42cb735c80eedad741ff
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 134
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=Vnybcp66Ly3YO6fR9pob41d3ezw5%2B%2F9%2FGY%2BCKz%2BzYdlvIXK%2FcvBr8zOLKacQufDn&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=60e49f7a6cff0abf98618a1f138c9001e357a993385ebfa9dda0999838fdd01f
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 135
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=z1dlzAjBMv79SOPhEGgRw4Z%2Fh41P8mBoV9J2h3BefSYjDIuKiGK60zeQ9nXt%2B1qx&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=92f5b99372ccb9f94def6b4aaa1ff0148e176036f3627d3f5b8d6d3ba3584bdf
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 136
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=XohyTyoNbvdbN7zAeaK1vUR0CvAXaVrcQ19rU9UfQiaULA979filJ46WRgR7JbS4&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=590165cc7633501835d80c56d44d52694d66eabe399d38bf482693865fc922ff
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 137
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=By8f%2F7V%2FP4TtRRrSMYPSlJo%2BpC3uUiGCP7JAD%2BR1CA7Lu9%2Bp1zvudoWETrY5gBJx&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=fea667c8d3f83eee11ed45cde1cd4dc79c625976ef8091066b5dbe89c308d4e4
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 138
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=ntXs0vHMhU%2F75dEZ1%2Bdugz4m4inq3UCUAQzgzkHLu0vj2rQDMJSHNPsKtNGwJicZ&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=20a80c0fb1c0523744a862797a9e50280e72d829761e19314a798f7d116993f7
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 139
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=lT%2FVlKrrkdXwPilYUVnxW4UITdcxnOWcGLEQDVMTeeiy%2BA5n2zVVYPL%2FW3CCW0ye&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=534620e33e4c66f68f88ec66181716ece24d79d4cae807639f89abac6c04acfb
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 140
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=jF%2FmvIs9dO2lLda4P6uz%2FrMAKxBA4nsEGW6RKdq%2F7suaXVZhmaMgxGLXt5FRRvJs&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=594fdc8a6515f5677b0b3048138ffb249f2df64407e95e52afab6329b0b66d13
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 141
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=OKQ695j3f8wwsMwau0cIKlUcUtvyI9czmWoaqSwiWhQ3acC0PMyE0WeE3Eox%2Bm8n&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=27899db1667bb82188563e9c8f8d1b014ab630966c393cb919f1f0d41172cd66
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 142
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=jCPDaOXxEg0BwbboTtL1xoah3ki33snd%2FLVYABAUPG77YgeT%2F5758DzFPUdK%2BmaT&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=0ffedb954c381569ee99f0ffd3e6d4fc9380fad6bab4d4f2fe94bc7698e29ff5
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 143
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=y42jXT0z6peWytBhJVY3DtkWuR99l8F%2F0BFNc9CP%2Bu6qhXY2bDPYfLrQIZsjpgAI&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=160411b14cdf66b2b2cad0a0551a4a7d151efeb89259000a3ccaef7bce6cb211
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 144
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=yHf4pL%2FgngIVBOCsv%2F54%2F2z0E1ZmNWRglIxqVb86ICGODoz1oOi76bG2GhLFuVb2&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=a0b712f317c20f7b7810d246e7c36ad818f44c83a88acbc20ffb38dd42bfb4c2
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 145
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=5MVjYSmxkd93wpANVcsFR02%2Fnl%2FdxJdh1LU5Vne5IwUeNAvH1zc8eUm1Y4XAqWKp&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=aa5a0751a1a628887628675f102bcb2b896b13f7b03af34bd3b8fde6b2174200
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 146
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=GlyYxeUpMTiIis2rDD6XunIFzTvM71DyhL125YJjuRvjWeHA1NHs%2FOGdRBJKUEYZ&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=e7daf1827ee36e7386ef91d8149bb3e9316bfda0e0cc26c86a8e2e214360a491
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 147
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=D7FCHu27dB8wx7LqI3M9ii8Oe35McP6j0yzmMypsOvMAipZhFhVxGLwXm6p59JxN&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=65f53de13f9b1e74bf2b19872bcac6d34aa2ea2f7059b3c899ef92d0604942ba
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 148
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=1DliFyYhfli8vfwa0i724FMz2z704eey4K%2BZ7GncSQ3ZHkk2V2v5mPIVNE9VdEAU&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=fe6a6a6db59daba3294da2d73446879e1b0c5de4962195697d51bc5bab7da4f1
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMSzJQINnPT54bpDsik-eGzZyaPP4NpwIFJW5qhrEFdzoUSZsfSAdHpNA3&s=10" group-title="Dragon Ball Z (Tag Dub)",Dragon Ball Z (Tag Dub) EPISODE 149
-https://bastikwangmods.com@free2.13link.workers.dev/download.aspx?file=diA5INnRAJ4kMZ3tsMFrGX0%2FTbKJ9OAb3mu7Yw0yAFN88r1tjCZRnbykjbFiZKB%2B&expiry=EPLHPe6orLhkAkV13hLnjw%3D%3D&mac=6d88786a930abe9b1a5c667344b49c8b571477ee34cff8c611404f5e8b3c8dfc
-
-
-
-
-
-
-########## MOVIES ############
-
-#EXTINF:-1 tvg-id="" group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyR5QpP7AHT91oLNzml1vFLH6ULG5fYvwuvrHwak0STvIN03hPwT9iQsYs&s=10",SPY x Family: Code White (Tagalog Dub | 720p)
-#KODIPROP:inputstream.adaptive.manifest_type=mp4
-#KODIPROP:inputstream.adaptive.license_type=none
-https://pixeldrain.com/api/file/SvGYx4fs
-
-
-#EXTINF:-1 tvg-id="" tvg-name="And the Breadwinner Is..." group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZV5jBqOfbRS__zipW7kZhZgP3PA5nEOAXHmWV4k6pz-gmmAEa4WeuzWY&s=10",And the Breadwinner Is... (1080p)
-#KODIPROP:inputstream.adaptive.manifest_type=mp4
-#KODIPROP:inputstream.adaptive.license_type=none
-https://pixeldrain.com/api/file/73hnsfQ1
-
-
-#EXTINF:-1 tvg-id="" group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/93/KPDHposter.jpeg",Kpop Demon Hunters (Tagalog Dub | 1080p)
-#KODIPROP:inputstream.adaptive.manifest_type=mp4
-#KODIPROP:inputstream.adaptive.license_type=none
-https://pixeldrain.com/u/EzwjBkSb
-
-#EXTINF:-1 tvg-id="5002:0:19:112F8:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/09/oumprkO9bThExP8NwxBIBnvBu2v1-200x300.jpg" 
-group-title="Movies", The Life of Chuck (2025)
-http://s1.gmtcloud.site/video/moviess/TheLifeofChuck2024.mp4?id=0
-#EXTINF:-1 tvg-id="5002:0:19:112E7:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/09/svXVRoRSu6zzFtCzkRsjZS7Lqpd1-200x300.jpg" group-title="Movies",Nobody 2 (2025)
-http://s1.gmtcloud.site/video/moviess/Nobody.2.2025.mp4?id=0
-#EXTINF:-1 tvg-id="5002:0:19:10CB0:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/9qQjd8Af0G7UmteRHruihS1lBZy1-200x300.jpg" group-title="Movies",The Naked Gun  (2025)
-http://s1.gmtcloud.site/video/moviess/The.Naked.Gun.2025.mp4?id=0
-#EXTINF:-1 tvg-id="5002:0:19:112CF:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/09/waQoVqRSbttoWQYeWBtR8mAJfvZ1-200x300.jpg" group-title="Movies",Bambi: The Reckoning (2025)
-http://s1.gmtcloud.site/video/moviess/BambiTheReckoning.mp4?id=0
-#EXTINF:-1 tvg-id="5002:0:19:10D12:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2024/08/cdPCTAay6GR32vb2snhIOhozDCd1-200x300.jpg" group-title="Movies",The Home (2025)
-http://s1.gmtcloud.site/video/moviess/The.Home.2025.mp4?id=0
-#EXTINF:-1 tvg-id="5002:0:19:1122B:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/pp6Rg9Ls2g7EaLhJriHx1gI99h1-200x300.jpg" group-title="Movies",Love Untangled (2025)
-http://s1.gmtcloud.site/video/moviess/Love.Untangled.2025.mp4?id=0
-#EXTINF:-1 tvg-id="5002:0:19:111CE:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/jSG2mg1998DUAam6X9EA6SeJmqD1-200x300.jpg" group-title="Movies", A Line of Fire (2025)
-http://s1.gmtcloud.site/video/moviess/A%20Line%20Of%20Fire%202025.mp4?id=0
-#EXTINF:-1 tvg-id="5002:0:19:111C7:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/uoBrXKe1qE2wFXOw71GuiIXETYV1-200x300.jpg" group-title="Movies", She Rides Shotgun (2025)
-http://s1.gmtcloud.site/video/moviess/She.Rides.Shotgun.2025.mp4?id=0
-#EXTINF:-1 tvg-id="5002:0:19:111C0:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/jukxj88V6GmpkJWn6PjiKodxa7A1-200x300.jpg" group-title="Movies", Werewolf Game (2025)
-http://s1.gmtcloud.site/video/moviess/Werewolf.Game.2025.mp4?id=0
-#EXTINF:-1 tvg-id="5002:0:19:111BC:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/d3T9jjdLjnhMzuFvmWImlVKiIrv1-200x300.jpg" group-title="Movies", Fantasy Football Ruined Our Lives (2025)
-http://s1.gmtcloud.site/video/moviess/Fantasy.Football.Ruined.Our.Lives.mp4?id=0
-#EXTINF:-1 tvg-id="5002:0:19:1110E:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/8FP2ObEGIiQYQCf83gL4ZVzwZF81-200x300.jpg" group-title="Movies",I Know What You Did Last Summer (2025)
-http://s1.gmtcloud.site/video/moviess/I.Know.What.You.Did.Last.Summer.2025.mp4?id=0
-#EXTINF:-1 tvg-id="5002:0:19:1116F:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/qiZqJaq7OQ5QGV4F71JvQcR8p3T1-200x300.jpg" group-title="Movies", The Thursday Murder Club (2025)
-http://s1.gmtcloud.site/video/moviess/The%20Thursday%20Murder%20Club%202025.mp4?id=0
-#EXTINF:-1 tvg-id="5002:0:19:11103:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/8cAXLYDmn0POhjqzTHeT6rJMUVc1-200x300.jpg" group-title="Movies", El secreto del orfebre (2025)
-http://s1.gmtcloud.site/video/moviess/The.Goldsmiths.Secret.2025.mp4?id=0
-#EXTINF:-1 tvg-id="5002:0:19:110E6:0:0:0:0:0:0" tvg-logo="https://gamatotv.info/wp-content/uploads/2025/08/m3qJWpGzuimIjNnWvibT7L5R1Dd1-200x300.jpg" group-title="Movies", Red Sonja (2025)
-http://s1.gmtcloud.site/video/moviess/RedSonja.mp4?id=0
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies", Demon Slayer: Kimetsu no Yaiba Infinity Castle
-https://gradejumper.site/gentlebreeze85.xyz/file2/VjsUwzFXRwwg5mPLpJt9Rg78kkBAyfC1fCSSBSaJEPdtlUdrgzN4y8elcGvFvqfySsXEtJGV5gDAcDLCcTucLF3TSTJV0b5FKdn~Mt0Pyyndk1GaoYQK1AbXXCYR4lDRvlrOxZprAcGbACfXwAWXFLf2v8dVvWmMav6l6AD45go=/MTA4MA==/aW5kZXgubTN1OA==.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies", Iron Man (2008)
-https://gradejumper.site/sunnybreeze16.live/file2/BPTfd3XCOeolJ9a45Tf0dtiTKiAuxnNOzI9oMxrwaYrxofBc6+y70b0uc6iGZ5042e9aqN7rJL1GCy9smdqlyFhHT1QwMbwecQ918e0Ry5omDcVSV5dpipUQCUc9BGLmVzWVEsQwHNmevSD9DEXK+HSN3HSykqMAOaTGlj09e+4=/MTA4MA==/aW5kZXgubTN1OA==.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies", Iron Man 2 (2010)
-https://gradejumper.site/stormwatch39.live/file2/ARKZfnxaOmY57IrAmCTAW~ycFwtUu83Fv24bRSJXgdzLr6b7QMpqzCYBbcLDWViI5Xwru5E+PYlQgdAMv5LqLMLFrt2eGsKBabHgswNrIPYtG4Xt3xPElonwwZ2HCcocv06Z9tlkcPnzoFgSqxcngVDYgEuBRQfjQgdCZrOxROs=/MTA4MA==/aW5kZXgubTN1OA==.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies", Spider-Man (2002)
-https://gradejumper.site/frostywinds73.pro/file2/YD~vtzhY18rmsmf7QzBo7Va222VfeZZ1DoWH6Cnqws+OCMePsFRjayD1wrV1ssiJ0gS4oXsy5+xqTN9go2LSDPElOFrNtoqd1pXbCmKy4sJgsoNIk5mZPGTcaj2F2cGzlW30AuA5neHXqsyktwAHHi~8MNlIIj1YxOXMcRSbkPM=/MTA4MA==/aW5kZXgubTN1OA==.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies", Spider-Man 2 (2004)
-https://gradejumper.site/gentlebreeze85.xyz/file2/g4d5tXbn3xAsviP0qmPKKnUUb6jsfRoCHwDXnE26WyiibbqHw4O73w1KkdWqY3AkhDEN3ZF3TRL31lWizlpoBXvM1t1NfQYAB2bbAUc6~wXcZghjMIwqN~qkk4xnErayQbjZCWQSi~4fkBomnSLpibdRVzDqWhSOtIMaGNb1Hig=/MTA4MA==/aW5kZXgubTN1OA==.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies", Spider-Man 3 (2007)
-https://gradejumper.site/stormwatch39.live/file2/pYBuGFh5USd4pxoLUOaX909cieyRl~4LNl0V0jtAZNlCJgrnIQ~6Y~dqfELJFjqo++dhVDVyX3dzZ~lB1fliiX~7rah~GzHDZfs3ektmjoo74ibPjo3WJe28WnPeWXLfDzgGm1yuEfXA6uoIyjwBK9UsEUqWDRw9NJQIJFkboS4=/MTA4MA==/aW5kZXgubTN1OA==.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Movies", Superman (2025)
-https://gradejumper.site/cloudburst99.xyz/file2/5~CKsyDyKzrhL96hNoJ0vXoKFCNIUJlOhBStFRwEa6OoY~5eA3EI2iKY5TYBZblTvAgL+TJ~m3tPuk754n8vjEbH2HVEoyJw8zU1axtzOURSMdPwcEOhEh6el8nkbhcHVkux7h6SiRvVWEfc3KcLDGEWzJtM+61H+U4qN~qVkJE=/MTA4MA==/aW5kZXgubTN1OA==.m3u8
 
 
 
@@ -4435,6 +3950,8 @@ http://yesfmvalencia.radioca.st:8231/stream
 https://fast.citrus3.com:8484/stream
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="zRadio – San Carlos – Central Luzon – PH" tvg-logo="" group-title="PH RADIO CHANNELS",zRadio – San Carlos – Central Luzon – PH
 http://streamnavs.net:8091/live
+
+
 
 
 #EXTM3U vod_library="https://raw.githubusercontent.com/mimipipi22/lalajo/refs/heads/main/vod,https://aqfadtv.xyz/ePsBfM4g3bHk5XRx/index.php,https://fahmikacak.pages.dev/HBOGO%20Asia" billed-msg="COUNTRY CHANNELS: PH, MY, JP, SG"
