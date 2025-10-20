@@ -1,11 +1,8 @@
-o#EXTM3U billed-msg="M3U PLAYLIST BY: Shakzz Henyo Things🫶"
+#EXTM3U billed-msg="M3U PLAYLIST BY: Shakzz Henyo Things🫶"
 
 #EXTM3U url-tvg="https://raw.githubusercontent.com/AqFad2811/epg/main/epg.xml,https://raw.githubusercontent.com/AqFad2811/epg/main/unifitv.xml,https://raw.githubusercontent.com/AqFad2811/epg/main/astro.xml, https://raw.githubusercontent.com/azimabid00/epg/main/unifi_epg.xml,https://i.mjh.nz/PlutoTV/all.xml,https://raw.githubusercontent.com/azimabid00/epg/main/astro_epg.xml, https://raw.githubusercontent.com/mystery75/streaming/app/VOD.xml, https://www.bevy.be/bevyfiles/philippinespremium2.xml, https://bit.ly/pondan-epg, https://azimabid00.github.io/epg/astro_epg.xml, https://raw.githubusercontent.com/mystery75/streaming/app/VOD.xml,https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
 
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz, https://raw.githubusercontent.com/atone77721/CIGNAL_EPG/refs/heads/main/cignal_epg.xml, https://raw.githubusercontent.com/atone77721/CIGNAL_EPG/refs/heads/main/sky_epg.xml"
-
-
-
 
 
 ########## Shakzz ###########
@@ -118,14 +115,9 @@ https://nokotan.anhkz.fr/channel/n13585467/index.m3u8?q=0842d25e3217cafb3fddf9cd
 #KODIPROP:inputstream.adaptive.license_key=fe0f12834d244b02873c6faf4238ffc9:da329ca93cbe1c816a43c14b09b8dd6d
 https://atemeshield1-voe.sysln.id/live/eds/SonyMax/mpd/SonyMax.mpd
 
-#EXTINF:-1 tvg-name="Sony MAX 2" tvg-logo="https://yt3.googleusercontent.com/r7fi39b2G0g-xrHbziVK_V0rgQqwRqXRtSDuUaALPCL-41ayfqIs_m7tSGR1ZGXU76toUEU3wg=s900-c-k-c0x00ffffff-no-rj" group-title="Shakzz",Sony MAX 2
-https://topsports.watch/sonyliv/stream.php?id=sony-max-2&format=.m3u8
-
-#EXTINF:-1 tvg-name="Sony PIX HD" tvg-logo="https://www.lyngsat.com/logo/tv/ss/sony-pix-in.png" group-title="Shakzz",Sony PIX HD
-https://topsports.watch/sonyliv/stream.php?id=sony-pix-hd&format=.m3u8
-
-#EXTINF:-1 tvg-name="Sony MAX HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8I-6j0wo5Lj5bSsjfVZaBEiNiozPsJZt-qg&s" group-title="Shakzz",Sony MAX HD
-https://topsports.watch/sonyliv/stream.php?id=sony-max-hd&format=.m3u8
+#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/ss/sony-pix-in.png" group-title="Shakzz", SONY PIX HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0
+https://tataplay.slivcdn.com/hls/live/2011748/PIXHD/master.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/26/I_Heart_Movies_2021.png" group-title="Shakzz",I HEART MOVIES
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -136,7 +128,6 @@ https://kaotv.ganbaruby23.xyz/dash/iheartmovies/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e2a7b8c1d9f0e3a4b5c6d7e8f1a2b3c4:0f1e2d3c4b5a60798877665544332211
 https://kaotv.ganbaruby23.xyz/dash/heartofasia/manifest.mpd
-
 
 
 ########## CIGNAL TV ########
@@ -243,15 +234,15 @@ https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/dr_rockentertainment/defau
 #KODIPROP:inputstream.adaptive.license_key=2e53f8d8a5e94bca8f9a1e16ce67df33:3471b2464b5c7b033a03bb8307d9fa35
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_tvnmovie/default/index.mpd
 
-#EXTINF:-1 tvg-id="jeepneytv" tvg-name="Jeepney TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/15/Jeepney_TV_Logo_2015.svg" group-title="Cignal",Jeepney TV
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"1bfe2d166e31d03eee86ee568bd6c272","kid":"90ea4079e02f418db7b170e8763e65f0"}],"type":"temporary"}
-https://abslive.akamaized.net/dash/live/2028025/jeepneytv/manifest.mpd
-
 #EXTINF:-1 tvg-id="pbo" tvg-logo="https://i.imgur.com/r3PUF9p.png" group-title="Cignal",PBO
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=dcbdaaa6662d4188bdf97f9f0ca5e830:31e752b441bd2972f2b98a4b1bc1c7a1
 https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/pbo_sd/default/index.mpd
+
+#EXTINF:-1 tvg-id="jeepneytv" tvg-name="Jeepney TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/15/Jeepney_TV_Logo_2015.svg" group-title="Cignal",Jeepney TV
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","k":"1bfe2d166e31d03eee86ee568bd6c272","kid":"90ea4079e02f418db7b170e8763e65f0"}],"type":"temporary"}
+https://abslive.akamaized.net/dash/live/2028025/jeepneytv/manifest.mpd
 
 #EXTINF:-1 tvg-id="viva-cinema" tvg-logo="https://i.imgur.com/hBb2Fh9.png" group-title="Cignal",Viva Cinema
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1230,8 +1221,6 @@ http://ixp.enixph.com:9111/stream/kapamilya/vivacinema/master.m3u8?u=enix&p=e3b0
 http://ixp.enixph.com:9111/stream/kapamilya/warnertv/master.m3u8?u=enix&p=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 
 
-
-
 ########## World TV ##########
 
 #EXTINF:-1 group-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx1QUyY8mA8jD64KBN-HxTPQjnR6tr0pF5QQ&usqp=CAU"
@@ -1799,45 +1788,6 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5c665db3e6c01b72c49
 #KODIPROP:inputstream.adaptive.stream_headers=referer=https://astrogo.astro.com.my//&user-agent=Mozilla/5.0 (Linux; Android 10; MI 9 Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36
 https://linearjitp-playback.astro.com.my/dash-wv/linear/1006/default_ott.mpd
 
-#EXTM3U
-
-
-#EXTINF:-1 tvg-name="Syfy East" tvg-logo="https://static.wikia.nocookie.net/tv-philippines/images/c/c9/Syfy.png/revision/latest/scale-to-width-down/200?cb=20241107095358" group-title="World TV",Syfy East
-http://212.102.60.10/SYFY/index.m3u8
-
-
-#EXTINF:-1 tvg-name="Sundance TV East" tvg-logo="https://www.directhd.tv/wp-content/uploads/2018/09/sundance-tv.jpg" group-title="World TV",Sundance TV East
-http://212.102.60.10/SUNDANCE/index.m3u8
-
-
-#EXTINF:-1 tvg-name="Starz Encore Action East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVD8N4I_8GnW8WpD-bplQMFYTE4l9ubGA1QA&s" group-title="World TV",Starz Encore Action East
-http://212.102.60.10/STARZ_ENCORE_ACTION/index.m3u8
-
-
-#EXTINF:-1 tvg-name="Starz Edge East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-41r5BrK4OswXPK0q5rsCNJUlapRiLfzCNQ&s" group-title="World TV",Starz Edge East
-http://212.102.60.10/STARZ_EDGE/index.m3u8
-
-
-#EXTINF:-1 tvg-name="Starz Comedy East" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5T46juK6VS9go9NL4BKhAZc8fvqR1T68tww&s" group-title="World TV",Starz Comedy East
-http://212.102.60.10/STARZ_COMEDY/index.m3u8
-
-
-#EXTINF:-1 tvg-name="Sony Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyDVgr1_NsLMd-tRFReibc4xyOUBin19lr6w&s" group-title="World TV",Sony Movies
-https://a-cdn.klowdtv.com/live1/smc_720p/playlist.m3u8
-
-
-#EXTINF:-1 tvg-name="Tennis Channel" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS64tQaTIZChoQZmnprELySy2ut7pTdTP7HPA&s" group-title="World TV",Tennis Channel
-http://212.102.60.10/TENNIS_CHANNEL/index.m3u8
-
-
-
-#EXTINF:-1 tvg-name="GOLDEN-MULTIPLEX" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/cc/Golden_LA_%282020%29.png/revision/latest?cb=20201205210642" group-title="World TV",GOLDEN TV
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f23601997bc024ea96b6b9d1e2b8b3fc:521a2cfdd3f649a9543422dc41fa4ca0
-http://live-atv-cdn.izzigo.tv/4/out/u/dash/GOLDEN-MULTIPLEX/manifest.mpd
-
 
 
 ###### PREMIUM SPORTS ######
@@ -2031,16 +1981,16 @@ https://newidco-babysharktv-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://logos-world.net/wp-content/uploads/2023/06/Disney-XD-Logo-2009.png" group-title="CARTOONS AND ANIMATIONS", Disney XD
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=39cebece8b36640f9ba3f248ecfdf86a:fad936249e036830aa5bef41bec05326
-https://a53aivottepl-a.akamaihd.net/pdx-nitro/live/clients/dash/enc/jts4tzzv1k/out/v1/8a5b29f7068c415aa371ea95743382e6/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mc-0x5t0x453e.bunny.run/license?id=DISXD
+https://mc-0x5t0x453e.bunny.run/channel/DISXD/master.mpd
 
 #EXTINF:-1 tvg-logo="https://www.pinpng.com/pngs/m/418-4182937_disney-junior-tv-logo-hd-png-download.png" group-title="CARTOONS AND ANIMATIONS", Disney Jr.
 #KODIPROP:inputstreamaddon=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=f5df57914a0922d5d5ed6b0a4af6290a:c62b10a180d1770a355b3c4cb6506ca0
-https://uselector.cdn.intigral-ott.net/DJR/DJR.isml/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mc-0x5t0x453e.bunny.run/license?id=DISJR
+https://mc-0x5t0x453e.bunny.run/channel/DISJR/master.mpd
 
 #EXTINF:-1 tvg-id="nickelodeon" tvg-logo="https://i.imgur.com/4o5dNZA.png" group-title="CARTOONS AND ANIMATIONS",Nickelodeon
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2061,6 +2011,9 @@ https://tglmp01.akamaized.net/out/v1/de55fad9216e4fe7ad8d2eed456ba1ec/manifest.m
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f2c313fce55344e5a52389741d1f53f8:bae1e47db562b66895beb8fccdf2ad8a
 https://cdn08jtedge.indihometv.com/dassdvr/107/aniplus/manifest.mpd
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/5gMIjA2.png" group-title="CARTOONS AND ANIMATIONS",Aniplus (Eng Sub)
+https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.medialink.com.hk/img/ani-one-logo.jpg" group-title="CARTOONS AND ANIMATIONS",4065 Ani One
 https://amg19223-amg19223c9-amgplt0019.playout.now3.amagi.tv/playlist/amg19223-amg19223c9-amgplt0019/playlist.m3u8
@@ -2135,6 +2088,8 @@ http://xxip25.top:8080/98333898/98333898/125637
 
 #EXTINF:-1 tvg-id="mrbean" tvg-name="Mr Bean Live" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdSj6OHTQv9_53OX9ZwSjCqOTkYj5dDUZUW0irJhXranWx7zI1YhEIwg&s=10" group-title="CARTOONS AND ANIMATIONS", Mr Bean Live Action
 https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/cb573d1d7d6c648b92d43b66cef24582847b3dcb0e6c886470af4a9765d96300dbf9b9c8fd3ab13c1ec0468a710b6d5a4d1cd209af3c419b8b1dfd034f25536b9f9bb565da9f0211c9a06b5756af6a4208a55b05a7700079d6a05a2b8d2fba74005cb95a3c1862c3ed47ad662f9ad253d72a39e8fc8b307b24455a9c5a43e6a64cb7abe95810893aa5b00140c12e14fa83439fd401b388d50f8315d775a514c893a182da1187e4205293728aecdb5f581fa9a83bf8f955bfd6937929957f2d556c3a8cc1b2cd3ef702da21269cded8b6648560a63ebb89125a980194408b338b65ea2aaef557e2dad320aaea5ad6a60b315dccc8a59ee93a739067f5abe5dc391af392452c179b3f994a5f491a999f65d2ff58b6cf8d6d06d79d67feb10ff0bca18aeeffa04b922cc6c6ce7a5c28414e0b188f51ae9b228e678d38e0e21a2f49551fedbb5bc094d65734221ed6db1eff5a5b98cb9b8fda393ec84b124ea7358a0c4b3f9a742457cd19d4b6702c852f0180751afe5b3e8f0bbc9b24e7a8d6e0496ae68c8912b13fa1e54afff900a061391931b2f42d4d4c032883b9285e660bae2f83f2c4e5650609e885afaf9029580d5a460a586b835790052ba668aed8b933cf2257196f9860690e20e9/184/1280x720_3329040/index.m3u8
+
+
 
 
 ########## MOVIES ############
@@ -4035,6 +3990,8 @@ http://yesfmvalencia.radioca.st:8231/stream
 https://fast.citrus3.com:8484/stream
 #EXTINF:-1 tvg-id="(no tvg-id)" tvg-name="zRadio – San Carlos – Central Luzon – PH" tvg-logo="" group-title="PH RADIO CHANNELS",zRadio – San Carlos – Central Luzon – PH
 http://streamnavs.net:8091/live
+
+
 
 
 
