@@ -22,19 +22,19 @@ https://d1uf7s78uqso1e.cloudfront.net/out/v1/efa01372657648be830e7c23ff68bea2/in
 
 #KODIPROP:inputstream.adaptive.license_type=widevine
 #KODIPROP:inputstream.adaptive.license_key=https://mc-o0of718lw0.bunny.run/license
-#EXTINF:0 tvg-id="" tvg-logo="https://ottepg4.comclark.com:8443/iptvepg/images/markurl/mark_1723126306082.png" group-title="CONVERGE", GMA 7 ( CON )
+#EXTINF:0 tvg-id="" tvg-logo="https://ottepg4.comclark.com:8443/iptvepg/images/markurl/mark_1723126306082.png" group-title="Shakzz", GMA 7 ( CON )
 https://mc-o0of718lw0.bunny.run/7/dopamine/manifest.mpd
 
 #KODIPROP:inputstream.adaptive.license_type=widevine
 #KODIPROP:inputstream.adaptive.license_key=https://mc-o0of718lw0.bunny.run/license
-#EXTINF:0 tvg-id="" tvg-logo="https://ottepg4.comclark.com:8443/iptvepg/images/markurl/mark_1723126332757.png" group-title="CONVERGE", GTV ( CON )
+#EXTINF:0 tvg-id="" tvg-logo="https://ottepg4.comclark.com:8443/iptvepg/images/markurl/mark_1723126332757.png" group-title="Shakzz", GTV ( CON )
 https://mc-o0of718lw0.bunny.run/11/dopamine/manifest.mpd
 
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Cu1tAY8.png" group-title="WesleyVanneck", GMA 7 ( CON ) 2
+#EXTINF:-1 tvg-logo="https://i.imgur.com/Cu1tAY8.png" group-title="Shakzz", GMA 7 ( CON ) 2
 http://vod.nathcreqtives.com/stream/convergenceinc/gmanetwork/master.m3u8?u=phc&p=fd65e8f78f430cd1a48bf2c07b9c0ace241775f6b2c9698a9ea01988d871da6e
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/geuq18u.png" group-title="WesleyVanneck", GTV ( CON) 2
+#EXTINF:-1 tvg-logo="https://i.imgur.com/geuq18u.png" group-title="Shakzz", GTV ( CON) 2
 http://vod.nathcreqtives.com/stream/convergenceinc/gtv/master.m3u8?u=phc&p=fd65e8f78f430cd1a48bf2c07b9c0ace241775f6b2c9698a9ea01988d871da6e
 
 #EXTINF:-1 tvg-id="dreamworks-tagalized" tvg-logo="https://i.imgur.com/bzTr9Y2.png" group-title="Shakzz",Dreamworks Tagalized 
